@@ -1,0 +1,122 @@
+\chapter{Aksiomi o vzporednicah}
+
+(Te aksiome bomo obravnavali kot izjave v nevtralni geometriji.)
+
+\begin{aksiom}[Hilbertov aksiom]
+    Za poljubno premico $p$ in točko $A\notin p$ obstaja natanko ena vzporednica k premici $p$ skozi točko $A$.
+\end{aksiom}
+
+\begin{opomba}
+    Vemo, da v nevtralni geometriji obstaja vsaj ena vzporednica, zato bi v Hilbertovem aksiomu lahko zahtevali, da obstaja 'največ ena' vzporednica.
+\end{opomba}
+
+\begin{aksiom}[Evklidov aksiom]
+    Če premica $t$ seka premici $p$ in $q$ tako, da je vsota notranjih kotov na enem bregu premice $t$ manjša/enaka $\pi$, potem se premici $p$ in $q$ sekata na tem bregu premice $t$.
+\end{aksiom}
+
+\begin{izrek}
+    Hilbertov aksiom $\Leftrightarrow$ Evklidov aksiom.
+\end{izrek}
+
+    \begin{dokaz}
+        \\ ($\Rightarrow$):
+        \\ $\alpha+\beta<\pi$. Naj bo $A=t\cap q$ in $r$ premica skozi točko $A$ tako, da oklepata premici $p$ in $r$ s premico $t$ skladna izmenična notranja kota. Ker je $\alpha+\beta<\pi$, sledi: $r\neq q$. Potem je $r\parallel p$. Po Hilbertovem aksiomu sledi $q \nparallel p$, zato se $p$ in $q$ sekata in morata se sekata na isti  strani kot sta kota $\alpha$ in $\beta$ (zaradi vsote kotov v trikotniku oziroma izreka o prečnici).
+        \\ ($\Leftarrow$):
+        \\ Naj bo premica $t$ pravokotnica skozi točko $A$ na premico $p$ in $r$ pravokotnica na premico $t$ skozi točko $A$. Vemo: $r \parallel p$. Naj bo $q$ poljubna druga premica skozi točko $A$. Eden od poltrakov $q$ iz $A$ eklepa s poltrakom $\overrightarrow{AB}$ kot $\alpha<\frac{\pi}{2}$. Na tem bregu premice $t$ je vsota notranjih kotov, ki jih s premico $t$ oklepata prmeici $p$ in $q$ manjša od $\pi$. Po Evklidovem aksiomu sledi: premici $p$ in $q$ se sekata.
+    \end{dokaz}
+
+\begin{izrek}
+    Naj bodo $p, q, r, t$ prmeice. Potem so naslednje trditve ekvivalentne:
+    \begin{enumerate}
+        \item Hilbertov aksiom o vzporednicah
+        \item Če je $p\parallel q$ in $q \parallel r$, potem je $p\parallel r$.
+        \item Če je $p\parallel q$ in $p$ seka $t$, potem $q$ seka $t$.
+        \item (I.29) Če je $p\parallel q$ in $t$ seka $p$ in $q$, potem sta izmenična notranja kota skladna.
+    \end{enumerate}
+\end{izrek}
+
+    \begin{dokaz}
+        ???? vaje ????
+    \end{dokaz}
+
+\begin{trditev}[I.32]
+    Hilbertov aksiom $\Rightarrow$ defekt poljubnega trikotnika je $0$ ($\delta(\triangle ABC)=0$) -- vsota kotov v trikotniku je $\pi$.
+\end{trditev}
+
+    \begin{dokaz}
+        ??? vaje ???
+    \end{dokaz}
+
+\begin{aksiom}[hiperbolični aksiom]
+    Obstaja premica $p$ in točka $A\notin p$, da skozi točko $A$ potekata vsaj dve vzporednici k premici $p$.
+\end{aksiom}
+
+\begin{opomba}
+    To je negacija Hilbertovega aksioma.
+\end{opomba}
+
+\begin{trditev}
+    Hiperbolični aksiom $\Rightarrow$ obstaja trikotnik s pozitivnim defektom.
+\end{trditev}
+
+    \begin{dokaz}
+        Naj bo premica $q$ standardna vzporednica k premici $p$. Po hiperboličnem aksiomu obstaja še ena vzporedna premica $r$ skozi točko $A$ k premici $p$. Izberimo točko $C$ na premici $p$ na tistem bregu preice $t$, kjer poltrak $\overrightarrow{AD}$ na $r$ iz $A$ leži med premicama $p$ in $q$. Potem je $\angle BAC<\angle BAD$, saj mora biti $\overrightarrow{AC}$ znotraj kota $\angle BAD$ (sicer bi $\overrightarrow{AD}$ po izreku o prečnici sekala $p$). Če lahko izberemo točko $C$ tako, da bo $|\angle ACB|<\alpha$, potem bo $\delta(\triangle ABC)>0$ (vsota kotov pri $A$ in $C$ manjša od $\frac{\pi}{2}$).
+        Naj bo $C_1\in p$, $B\ast C\ast C_1$ in $CC_1\cong AC$. Potem je $2\gamma_1<\gamma$ (vsota dveh kotov v trikotniku je manjša od nasprotnega zunanjega kota). Sledi: $\gamma_1<\frac{\gamma}{2}$. Po nekaj korakih dosežemo, da je $|\angle ACB|<\alpha$.
+    \end{dokaz}
+
+\begin{posledica}
+    Hilbertov aksiom $\Leftrightarrow$ $\delta(\triangle)=0$
+    \\ Hiperbolični aksiom $\Leftrightarrow$ $\delta(\triangle)>0$ $\Leftrightarrow$ pravokotniki ne obstajajo.
+\end{posledica}
+
+\begin{trditev}[univerzali hiperbolični aksiom]
+    Če velja hiperbolični aksiom, potem za vsako premico $p$ in vsako točko $A\notin p$, potekata skozi točko $A$ vsaj dve vzporednici k premici $p$.
+\end{trditev}
+
+    \begin{dokaz}
+        Naj bo premica $q$ standardna vzporednica k premici $p$ skozi točko $A$ in točka $C\in p$ različna od $B=p\cap t$. $\delta(\triangle ABC)>0 \Rightarrow \alpha+\gamma<\frac{\pi}{2}$. Po I.27 sta si premici $p$ in $r$ vzporedni: s premico $\overleftrightarrow{AC}$ oklepata skladna izmenična notranja kota ($\gamma$).
+    \end{dokaz}
+
+\begin{trditev}[KKK]
+    Hiperbolični aksiom $\Rightarrow$ skladnostni kriterij KKK za trikotnik: če imata trikotnika skladne istoležne kote, sta skladna.
+\end{trditev}
+
+    \begin{dokaz}
+        \\ Za trikotnika $\triangle ABC$ in $\triangle A'B'C'$ velja: $\angle A\cong \angle A';~\angle B\cong \angle B';~\angle C\cong \angle C'$.
+        \\ Če je $AB\cong A'B'$, skladnost trikotnikov sledi po kriteriju KSK.
+        \\ Denimo, da je $A'B'<AB$. Potem obstaja točka $B''$ taka, da je: $A\ast B''\ast B$ in $AB''\cong A'B'$. Naj bo $p$ premica skozi $B''$, ki s premico $\overleftrightarrow{AB}$ okepa kot skladen $\angle B'$. Po Paschevem izreki premica $p$ seka $AC$ ali $BC$, ampak ker je $BC\parallel p$ po I.27 (skladna izmenična notranja kota), sledi, da premica $p$ seka $AC$ v točki $C''$. Po KSK ($\angle A\cong\angle A';~AB''\cong A'B';~\angle B''\cong \angle B'$) sledi: $\triangle AB''C''\cong \triangle A'B'C'$. Zato velja: $\delta(\triangle AB''C'')=\delta(\triangle ABC)=\delta(\triangle AB''C'')+\delta(\triangle BB''C'')+\delta(\triangle BCC'')$. Od tod sledi: $\delta(\triangle BB''C'')=0=\delta(\triangle BCC'')$, kar je v protislovju s tem, da za vse trikotnike velja $\delta>0$. Torej velja: $\triangle ABC\cong\triangle A'B'C'$. 
+    \end{dokaz}
+
+\begin{opomba}
+    \begin{itemize}
+        \item (Neskladni) podobni trikotniki obstajajo le v evklidski geometriji, ne pa tudi v hiperbolični geometriji.
+        \item Ker imamo naravno enoto za merjenje kotov v nevtralni geometriji, od tod sledi, da v hiperbolični geometriji obstaja naravna enota za dolžino.
+    \end{itemize}
+\end{opomba}
+
+\section{Zgodovina aksioma o vzporednicah}
+
+Že Evklid je imel pomisleke glede formulacije -- iskal je najbolj nazorno/preverljivo vezijo aksiom E.5. Prvič je ta aksiom uporabil v  I.29.
+
+Skoraj 2000 let so se matematiki trudili dokazati E.5 iz ostalih aksiomov  ali pa ga vsaj zamenjati s čim bolj nazornim.
+
+Prvi poskusi že v antiki (Ptolomej, Proklus), potem arabski/perzijski matematiki, do pomembnih zahodnih matematikov (Qallis, Saccheri, Lambert -- vsi so dokazovali E.5).
+
+Alternativno definicijo so postavili mnogi, npr. Clairaut je E.5 nadomestil s '\textit{pravokotniki obstajajo}', ki je bolj nazorna., a kot druge zamenjave logično ekvivalentna.
+
+Leta 1763 je G. S. Klügel spisal doktorat, v katerem je pokazal napake/implicitne privzetke v 28 dokazih E.5.
+
+Zgodba se konča okoli leta 1830:
+\begin{itemize}
+    \item C. F. Gauss (1777--1855)
+    \item F. Bolyai (1775--1856)
+    \item J. Bolyai (1802--1860)
+    \item N. L. Lobačevski (1792--1856)
+\end{itemize}
+
+Lobačevski objavi svoje rezultate o hiperbolični geometriji v Rusiji leta 1829, kjer je deležen hudih napadov, naj umakne svoje 'napačne' trditve. (Lobačevski je svoj prevod v nemščino dobil šele leta 1840.)
+
+F. Bolyai je objavil več 'dokazov' aksoma E.5, tudi še po tem, ko je njegov sin, J. Bolyai, leta 1831 v njegovi/očetovi knjigi o geometriji objavil svojo verzijo hiperbolične geometrije.
+
+Do Gaussove smrti leta 1855 hiperbolična geometrija ni bila splošno sprejeta. Po njegovi smrti, ko so bili objavljeni njegovi zapiski, o tem, in pisma, so tudi ostali to sprejeli.
+Po tem je geometrija doživela pravi razcvet, posebej z deli B.  Riemanna, ki je tvorec diferencialne geometrije, in je bil Gaussov učenec.
