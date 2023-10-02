@@ -1,0 +1,23 @@
+area 15 10 43 45
+
+point A 20 15
+point B 40 15
+point C 30 40
+
+line c A B
+
+mediatrice s A B
+
+intersection T s c
+
+drawsegment A B
+drawsegment B C
+drawsegment A C
+
+cmark_b A
+cmark_b B
+cmark_lt C
+cmark_rb T
+
+
+drawdashline s

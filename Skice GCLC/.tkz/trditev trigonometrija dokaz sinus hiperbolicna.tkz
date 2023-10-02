@@ -1,0 +1,87 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point O=B by circle
+\draw [line width=0.016cm] (3.000000,3.000000) circle (0.040000);%
+\draw (3.000000,3.000000) node [anchor=north] { $O=B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (4.000000,3.000000) circle (0.040000);%
+\draw (3.970000,3.030000) node [anchor=north west] { $C$ };%
+
+% Marking point \tilde{S} by circle
+\draw [line width=0.016cm] (6.000000,3.000000) circle (0.040000);%
+\draw (6.030000,3.030000) node [anchor=north east] { $\tilde{S}$ };%
+
+% Drawing circle k
+\draw [line width=0.016cm] (3.000000,3.000000) circle (1.500000);%
+
+% Drawing circle k'
+\draw [line width=0.016cm] (7.999600,3.039998) -- (7.998782,3.069799) arc (2:67:2.000000 and 2.000000) -- (6.763769,4.848420);%
+\draw [line width=0.016cm] (6.689240,4.877485) -- (6.684040,4.879385) arc (70:163:2.000000 and 2.000000) -- (4.084468,3.575099);%
+\draw [line width=0.016cm] (4.063002,3.498037) -- (4.059409,3.483844) arc (166:178:2.000000 and 2.000000) -- (4.000400,3.039998);%
+\draw [line width=0.016cm] (4.000400,2.960003) -- (4.001218,2.930201) arc (182:358:2.000000 and 2.000000) -- (7.999600,2.960001);%
+
+% Marking point C' by circle
+\draw [line width=0.016cm] (8.000000,3.000000) circle (0.040000);%
+\draw (7.970000,3.030000) node [anchor=north west] { $C'$ };%
+
+% Drawing segment O=B C''
+\draw [line width=0.016cm] (3.040000,3.000000) -- (3.960000,3.000000);%
+\draw [line width=0.016cm] (4.040000,3.000000) -- (5.960000,3.000000);%
+\draw [line width=0.016cm] (6.040000,3.000000) -- (7.960000,3.000000);%
+\draw [line width=0.016cm] (8.040000,3.000000) -- (8.500000,3.000000);%
+
+% Drawing segment O=B X
+\draw [line width=0.016cm] (7.000000,5.000000) -- (6.762427,4.881214);%
+\draw [line width=0.016cm] (6.690873,4.845436) -- (5.435777,4.217889);%
+\draw [line width=0.016cm] (5.364223,4.182111) -- (4.109127,3.554564);%
+\draw [line width=0.016cm] (4.037573,3.518786) -- (3.035777,3.017889);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (4.073350,3.536675) circle (0.040000);%
+\draw (4.103350,3.506675) node [anchor=south east] { $A$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (6.726650,4.863325) circle (0.040000);%
+\draw (6.726650,4.863325) node [anchor=south] { $A'$ };%
+
+% Drawing line m
+\draw [line width=0.016cm] (7.000000,1.000000) -- (6.017889,2.964223);%
+\draw [line width=0.016cm] (5.982111,3.035777) -- (5.417889,4.164223);%
+\draw [line width=0.016cm] (5.382111,4.235777) -- (5.000000,5.000000);%
+
+% Marking point M by circle
+\draw [line width=0.016cm] (5.400000,4.200000) circle (0.040000);%
+\draw (5.400000,4.200000) node [anchor=south] { $M$ };%
+
+% Drawing segment A \tilde{S}
+\draw [line width=0.016cm] (4.111883,3.525942) -- (5.961467,3.010734);%
+
+% Drawing line t'
+\draw [line width=0.016cm] (3.366750,1.000000) -- (4.062617,3.498142);%
+\draw [line width=0.016cm] (4.084084,3.575208) -- (4.480964,5.000000);%
+
+% Marking point \alpha
+\draw (4.000000,3.500000) node [anchor=north east] { $\alpha$ };%
+
+% Marking point \alpha
+\draw (4.000000,3.500000) node [anchor=south west] { $\alpha$ };%
+
+% Marking point \alpha
+\draw (6.000000,3.000000) node [anchor=south east] { $\alpha$ };%
+
+% Marking point \pi-\alpha
+\draw (4.000000,3.500000) node [anchor=west] { $\pi-\alpha$ };%
+
+% Marking point t
+\draw (4.200000,4.500000) node [anchor=south] { $t$ };%
+
+% Marking point \tilde{\mathcal{K}}
+\draw (7.700000,1.500000) node  { $\tilde{\mathcal{K}}$ };%
+
+% Marking point \mathcal{K}
+\draw (3.000000,1.500000) node [anchor=north] { $\mathcal{K}$ };%
+}
+\end{tikzpicture}

@@ -1,0 +1,44 @@
+area 10 10 50 40
+
+point A 45 15
+point D 15 15
+point C 15 35
+point D' 45 35
+
+
+drawsegment A D
+drawsegment D' A
+drawsegment D' C
+drawsegment D C
+drawsegment C A
+
+drawdashline D D'
+
+cmark_b A
+cmark_b D
+cmark_t C
+cmark_t D'
+
+point \alpha_1 40 15
+mark_t \alpha_1
+
+point \alpha_2 45 20
+mark_l \alpha_2
+
+point \alpha_1 20 35
+mark_b \alpha_1
+
+point \alpha_2 15 30
+mark_r \alpha_2
+
+point \delta_1 20 15
+mark_t \delta_1
+
+point \delta_2 15 20
+mark_r \delta_2
+
+point \delta_1 40 35
+mark_b \delta_1
+
+point \delta_2 45 30
+mark_l \delta_2

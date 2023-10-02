@@ -1,0 +1,21 @@
+area 10 0 90 65
+
+point A 40 30
+point B 60 35
+
+line p A B
+
+circle p A B
+
+oncircle P A B
+
+cmark_lt A
+cmark_rt B
+mark_t P
+
+
+drawcircle p
+
+drawsegment A B
+
+

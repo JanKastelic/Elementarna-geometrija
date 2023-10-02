@@ -1,0 +1,61 @@
+area 15 10 85 50
+
+point O=A 30 30
+point \tilde{S} 60 30
+point C 40 30
+point R 45 30
+
+cmark_b O=A
+cmark_lb C
+cmark_b \tilde{S}
+
+circle k O=A R
+circle k' \tilde{S} C
+
+drawcircle k
+drawcircle k'
+
+point C' 80 30
+cmark_rb C'
+
+point C'' 85 30
+
+drawsegment O=A C''
+
+point X 80 55
+
+line x O=A X
+drawsegment O=A X
+
+intersec2 B' B x k'
+
+cmark_lt B
+cmark_t B'
+
+
+
+
+
+line a B \tilde{S}
+
+
+intersec2 \Sigma \Omega k k'
+mark_t \Omega
+mark_b \Sigma
+
+point \tilde{\mathcal{K}} 77 15
+mark \tilde{\mathcal{K}}
+
+point \mathcal{K} 30 15
+mark_b \mathcal{K}
+
+line v \Omega \Sigma
+line i C C'
+
+intersec I(B) v x
+intersec I(C) i v
+
+drawsegment \Omega \Sigma
+
+cmark_rt I(B)
+cmark_rb I(C)

@@ -1,0 +1,31 @@
+area 15 15 65 40
+
+point p 20 20
+point q 20 40
+point t 30 40
+point X 70 20
+point Y 65 21
+point Z 25 10
+point U 40 25
+point V 20 30
+
+drawline p X
+
+drawbezier3 q U Y
+drawbezier3 t V Z
+
+mark_l t
+mark_l q
+mark_lt p
+
+point A 26.55 35.4
+point B 23.45 20
+
+cmark_t A
+cmark_rt B
+
+point \Pi(A,p) 25 35
+mark_rb \Pi(A,p)
+
+point \Pi(A,p) 25 37
+mark_lb \Pi(A,p)

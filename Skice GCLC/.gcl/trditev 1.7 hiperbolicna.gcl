@@ -1,0 +1,55 @@
+area 15 15 55 45
+
+point M' 20 20
+point A' 30 20
+point B' 40 20
+point M 20 40
+point A 30 40
+point B 40 40
+point t 20 15
+point q 50 20
+point p 50 40
+point \delta 20 40
+point \gamma 30 20
+
+midpoint d_1 M A'
+midpoint d_2 A B'
+midpoint m M M'
+midpoint a A A'
+midpoint b B B'
+
+line P A B
+line Q A' B'
+line T M M'
+line W A A'
+line V B B'
+
+
+cmark_lb A'
+cmark_lt A
+cmark_lt B
+cmark_lb B'
+cmark_lt M
+cmark_lt M'
+mark_lt p
+mark_lt q
+mark_rt t
+mark_r m
+mark_r a
+mark_r b
+mark_rt d_1
+mark_rt d_2
+mark_rb \delta
+mark_lt \gamma
+
+
+drawline P
+drawline Q
+drawline T
+
+
+drawsegment A' M
+drawsegment B' A
+drawsegment B B'
+drawsegment A A'
+

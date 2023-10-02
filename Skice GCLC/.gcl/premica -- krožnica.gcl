@@ -1,0 +1,28 @@
+area 10 10 80 35
+
+point A 15 15 
+point B 50 15
+
+drawsegment A B
+drawarrow A B 1
+drawarrow B A 1
+
+point C 70 30
+point S 70 20
+
+drawcircle  S C
+
+point X 63 29
+point Y 78 29
+
+drawarrow X C 1
+drawarrow Y C 1
+
+point \infty_p 15 15
+mark_l \infty_p
+
+point \infty_p 50 15
+mark_r \infty_p
+
+point \infty_p 70 30
+mark_t \infty_p

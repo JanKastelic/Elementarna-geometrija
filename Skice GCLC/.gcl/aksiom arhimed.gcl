@@ -1,0 +1,24 @@
+area 10 10 85 25
+
+point A 20 20
+point X 85 20
+point C 15 15
+point D 30 15
+onsegment B A X
+
+translate D' C D A
+translate D'' C D D'
+translate D''' C D D''
+translate D'''' C D D'''
+
+drawsegment A X
+drawsegment C D
+
+cmark_lt A
+cmark_lt B
+cmark_lt C
+cmark_lt D
+cmark D'
+cmark D''
+cmark D'''
+cmark D''''

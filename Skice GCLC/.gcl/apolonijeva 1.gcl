@@ -1,0 +1,23 @@
+area 10 10 55 20
+
+point A 15 15
+point C 25 15
+point B 40 15
+point C' 50 15
+
+midpoint x A C
+midpoint a-x C B
+midpoint y B C'
+midpoint a A B
+
+cmark_t A
+cmark_t B
+cmark_t C
+cmark_t C'
+
+drawline A B
+
+mark_b a
+mark_t x
+mark_t a-x
+mark_t y

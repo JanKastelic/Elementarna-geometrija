@@ -1,0 +1,39 @@
+area 10 10 40 40
+
+point A 15 15
+point B 30 15
+point C 35 15
+
+point D 15 30
+point E 35 30
+point I 30 30
+
+point F 15 35
+point G 30 35
+point H 35 35
+
+drawsegment A C
+drawsegment F H
+drawsegment A F
+drawsegment C H
+drawsegment G B
+drawsegment D E
+
+midpoint a A B
+midpoint b B C
+mark_b a
+mark_b b
+
+midpoint a A D
+midpoint b D F
+mark_l a
+mark_l b
+
+midpoint ba D G
+midpoint b^2 I H
+midpoint a^2 A I
+midpoint ab B E
+mark ba
+mark b^2
+mark a^2
+mark ab

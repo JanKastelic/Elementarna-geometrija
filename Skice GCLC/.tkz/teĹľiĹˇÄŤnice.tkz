@@ -1,0 +1,57 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing segment A B
+\draw [line width=0.016cm] (1.540000,1.500000) -- (4.210000,1.500000);%
+\draw [line width=0.016cm] (4.290000,1.500000) -- (6.960000,1.500000);%
+
+% Drawing segment A C
+\draw [line width=0.016cm] (1.526032,1.530370) -- (2.973968,3.219630);%
+\draw [line width=0.016cm] (3.026032,3.280370) -- (4.473968,4.969630);%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (6.976750,1.532549) -- (5.773250,3.217451);%
+\draw [line width=0.016cm] (5.726750,3.282549) -- (4.523250,4.967451);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (1.500000,1.500000) circle (0.040000);%
+\draw (1.530000,1.530000) node [anchor=north east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (7.000000,1.500000) circle (0.040000);%
+\draw (6.970000,1.530000) node [anchor=north west] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (4.500000,5.000000) circle (0.040000);%
+\draw (4.500000,5.000000) node [anchor=south] { $C$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (5.750000,3.250000) circle (0.040000);%
+\draw (5.720000,3.220000) node [anchor=south west] { $A'$ };%
+
+% Marking point B' by circle
+\draw [line width=0.016cm] (3.000000,3.250000) circle (0.040000);%
+\draw (3.030000,3.220000) node [anchor=south east] { $B'$ };%
+
+% Marking point C' by circle
+\draw [line width=0.016cm] (4.250000,1.500000) circle (0.040000);%
+\draw (4.250000,1.500000) node [anchor=north] { $C'$ };%
+
+% Marking point T by circle
+\draw [line width=0.016cm] (4.333333,2.666667) circle (0.040000);%
+\draw (4.303333,2.636667) node [anchor=south west] { $T$ };%
+
+% Drawing segment A A'
+\draw [line width=0.032cm] (1.536987,1.515230) -- (4.296346,2.651437);%
+\draw [line width=0.032cm] (4.370320,2.681897) -- (5.713013,3.234770);%
+
+% Drawing segment B B'
+\draw [line width=0.032cm] (6.963354,1.516033) -- (4.369980,2.650634);%
+\draw [line width=0.032cm] (4.296687,2.682699) -- (3.036646,3.233967);%
+
+% Drawing segment C C'
+\draw [line width=0.032cm] (4.497150,4.960102) -- (4.336183,2.706565);%
+\draw [line width=0.032cm] (4.330483,2.626768) -- (4.252850,1.539898);%
+}
+\end{tikzpicture}

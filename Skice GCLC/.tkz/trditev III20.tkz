@@ -1,0 +1,48 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point T by circle
+\draw [line width=0.016cm] (2.800000,4.200000) circle (0.040000);%
+\draw (2.800000,4.200000) node [anchor=east] { $T$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (3.000000,1.500000) circle (0.040000);%
+\draw (3.030000,1.530000) node [anchor=north east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (5.000000,2.500000) circle (0.040000);%
+\draw (4.970000,2.470000) node [anchor=south west] { $B$ };%
+
+% Drawing circle S A
+\draw [line width=0.016cm] (3.037407,1.485834) -- (3.061620,1.477264) arc (251:343:1.502826 and 1.502826) -- (4.988888,2.461574);%
+\draw [line width=0.016cm] (5.010085,2.538707) -- (5.015201,2.560152) arc (347:360:1.502826 and 1.502826) --(5.053719,2.898214) arc (0:118:1.502826 and 1.502826) -- (2.834912,4.219523);%
+\draw [line width=0.016cm] (2.765620,4.179554) -- (2.754517,4.172683) arc (122:246:1.502826 and 1.502826) -- (2.962983,1.515157);%
+
+% Drawing segment S B
+\draw [line width=0.016cm] (3.589463,2.887615) -- (4.961430,2.510599);%
+
+% Drawing segment S A
+\draw [line width=0.016cm] (3.536230,2.860999) -- (3.014663,1.537216);%
+
+% Drawing line T A
+\draw [line width=0.016cm] (3.037037,1.000000) -- (3.002955,1.460109);%
+\draw [line width=0.016cm] (2.997045,1.539891) -- (2.802955,4.160109);%
+\draw [line width=0.016cm] (2.797045,4.239891) -- (2.740741,5.000000);%
+
+% Drawing line T B
+\draw [line width=0.016cm] (1.764706,5.000000) -- (2.768349,4.224458);%
+\draw [line width=0.016cm] (2.831651,4.175542) -- (4.968349,2.524458);%
+\draw [line width=0.016cm] (5.031651,2.475542) -- (5.500000,2.113636);%
+
+% Marking point S by circle
+\draw [line width=0.016cm] (3.550893,2.898214) circle (0.040000);%
+\draw (3.550893,2.898214) node [anchor=south] { $S$ };%
+
+% Marking point 2\phi
+\draw (3.800000,2.900000) node [anchor=north] { $2\phi$ };%
+
+% Marking point \phi
+\draw (3.100000,3.500000) node [anchor=south] { $\phi$ };%
+}
+\end{tikzpicture}

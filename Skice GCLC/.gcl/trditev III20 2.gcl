@@ -1,0 +1,41 @@
+area 10 10 60 40
+
+point A 20 20
+point B 45 15
+point T 55 30
+
+cmark_lt T
+cmark_l A
+cmark_rb B
+
+mediatrice r A B
+mediatrice s A T
+intersection S r s
+
+drawcircle S A
+
+drawsegment S B
+drawsegment S A
+drawline T A
+drawline T B
+drawline T S
+
+cmark_t S
+
+point 2\alpha 30 31
+mark 2\alpha
+
+point \alpha 50 30
+mark \alpha
+
+point \alpha 25 22
+mark \alpha
+
+point 2\beta 35 28
+mark 2\beta
+
+point \beta 50 28
+mark \beta
+
+point \beta 45 18
+mark \beta

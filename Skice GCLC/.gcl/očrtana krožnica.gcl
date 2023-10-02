@@ -1,0 +1,68 @@
+area 10 10 80 75
+
+point A 15 35
+point B 70 35
+point C 60 65
+
+
+mediatrice a B C
+mediatrice b A C
+mediatrice c A B
+
+drawsegment A B
+drawsegment A C
+drawsegment B C
+
+drawdashline a
+drawdashline b
+drawdashline c
+
+intersection O a b
+
+line e A B
+perpendicular s O e
+intersection C' s e
+
+line f A C
+perpendicular r O f
+intersection B' r f
+
+line g C B
+perpendicular q O g
+intersection A' q g
+
+
+cmark_lt A
+cmark_rb B
+cmark_t C
+cmark_lb O
+
+cmark_rt A'
+cmark_t B'
+cmark_lb C'
+
+point \gamma 40 40
+mark_b \gamma
+
+point \gamma 50 40
+mark_b \gamma
+
+point \gamma 58 62
+mark_b \gamma
+
+midpoint R A O
+mark_t R
+
+midpoint R O B
+mark_t R
+
+midpoint R O C
+mark_l R
+
+double
+
+drawsegment A O
+drawsegment O B
+drawsegment O C
+
+drawcircle O A

@@ -1,0 +1,40 @@
+area 15 15 45 45
+
+point R 20 20
+point S 30 30
+
+circle k S R
+
+drawdashcircle k
+
+
+point G 21.52 18.68
+point B 43.02 24.49
+drawsegment G B
+
+point p 35.31 22.41
+mark_rt p
+
+drawarrow G B 1
+drawarrow B G 1
+
+point C 22.67 42.10
+point D 40.17 39.83
+point E 17.81 37.18
+point F 44.12 30.75
+
+intersec A E D C F
+cmark_t A
+
+drawsegment E D
+drawsegment C F
+
+drawarrow F C 1
+drawarrow C F 1
+drawarrow D E 1
+drawarrow E D 1
+
+point \mathcal{K} 20 20
+mark_lb \mathcal{K}
+
+

@@ -1,0 +1,21 @@
+area 10 20 60 45
+
+point A 15 25
+point B 55 25
+midpoint S A B
+oncircle C S A
+
+
+drawsegment A C
+drawsegment A B
+drawsegment C B
+
+
+cmark_t C
+cmark_l A
+cmark_r B
+cmark_b S
+
+drawdashcircle S A
+
+

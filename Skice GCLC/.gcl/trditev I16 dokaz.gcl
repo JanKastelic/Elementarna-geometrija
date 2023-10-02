@@ -1,0 +1,28 @@
+area 10 10 60 45
+
+point A 15 15 
+point B 45 15
+point H 60 15
+onsegment D B H
+onsegment G A B
+point I 15 50
+point J 30 50
+intersec C A J B I
+onsegment E G C
+
+drawsegment A H
+drawsegment G C
+drawsegment A J
+drawsegment B I
+
+cmark_b A
+cmark_b B
+cmark_r C
+cmark_b D
+cmark_rb E
+
+point \phi 28 35
+mark_b \phi
+
+point \phi 45 15
+mark_rt \phi

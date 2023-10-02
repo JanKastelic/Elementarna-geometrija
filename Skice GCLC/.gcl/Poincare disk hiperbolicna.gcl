@@ -1,0 +1,39 @@
+area 15 15 45 45
+
+point R 20 20
+point S 30 30
+
+circle k S R
+
+drawdashcircle k
+
+point P 35 15
+point V 35 25
+
+circle l P V
+
+
+
+point F 44.12 30.75
+
+
+
+line u S F
+intersec2 I J u k
+
+drawsegment I J
+drawarrow I J 1
+drawarrow J I 1
+
+intersec2 M N l k
+
+angle alpha M P N
+
+drawarc P N alpha
+
+
+point \mathcal{K} 20 20
+mark_lb \mathcal{K}
+
+drawarrow S M 1
+drawarrow S N 1

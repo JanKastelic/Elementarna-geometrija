@@ -1,0 +1,17 @@
+area 10 10 50 30
+
+point q 15 15
+point p 50 25
+
+midpoint A q p
+
+onsegment \Sigma_1 q A
+
+onsegment \Sigma_2 A p
+
+drawline q p
+
+mark_lt p
+mark_lt \Sigma_1
+cmark_lt A
+mark_lt \Sigma_2

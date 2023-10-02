@@ -1,0 +1,18 @@
+area 10 10 60 35
+
+point X 40 15
+point p 15 15
+point A 40 30
+point q 20 30
+point t 45 31
+
+drawline p X
+drawline A q
+drawline A t
+
+cmark_lt A
+mark_t p
+mark_t q
+mark_rt t
+
+

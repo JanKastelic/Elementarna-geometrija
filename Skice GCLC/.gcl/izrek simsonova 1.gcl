@@ -1,0 +1,55 @@
+area 10 10 65 45
+
+point A 15 15
+point B 60 15
+point S 45 15
+point R 35 40
+point Q 41.2 24.5
+
+line a A B
+line b A R
+line c B Q
+
+perpendicular d S a
+perpendicular e R b
+
+intersection P d e
+
+perpendicular f P c
+
+intersection C c b
+
+line g S R
+
+drawsegment A R
+drawsegment A B
+drawsegment S P
+drawline S R
+drawsegment B C
+drawsegment Q P
+drawsegment P C
+drawsegment P R
+drawsegment B P
+
+cmark_b A
+cmark_b S
+cmark_b B
+cmark_t R
+cmark_lt C
+cmark_rt P
+cmark_lb Q
+
+mediatrice i A R
+mediatrice j A S
+
+intersection M i j
+
+mediatrice k C R
+mediatrice l R P
+
+intersection N k l
+
+color 127 127 127
+
+drawdashcircle N R
+drawdashcircle M A

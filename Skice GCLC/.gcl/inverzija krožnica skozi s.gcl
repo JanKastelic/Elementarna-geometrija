@@ -1,0 +1,43 @@
+area 25 15 80 55
+
+point K 30 25
+point S 45 35
+point A 57 33
+point U 90 35
+point D 72.08 20
+point B 72.08 45
+
+circle k S K
+line s S A
+perpendicular t A s
+intersection2 X Y k t
+line R S X
+perpendicular x X R
+intersection A' s x
+perpendicular u A' s
+midpoint O S A
+circle o O A
+
+line g S D
+line h S B
+intersection2 M C g o
+intersection2 B' N h o
+oncircle \tilde{K} S A
+point inv_K\tilde{K} 72 35
+
+
+drawdashcircle k
+drawline s
+drawline u
+drawcircle o
+
+
+
+
+
+cmark_lb S
+mark_l K
+cmark_rb A'
+cmark_rb A
+mark_t \tilde{K}
+mark_r inv_K\tilde{K}

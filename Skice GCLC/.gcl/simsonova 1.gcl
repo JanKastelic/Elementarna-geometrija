@@ -1,0 +1,16 @@
+area 10 10 55 35
+
+point A 15 15
+point B 50 15
+point C=P=Q=R 40 30
+point S 40 15
+
+drawsegment A B
+drawsegment A C=P=Q=R
+drawsegment B C=P=Q=R
+drawline S C=P=Q=R
+
+cmark_b A
+cmark_b B
+cmark_rb S
+cmark_rt C=P=Q=R

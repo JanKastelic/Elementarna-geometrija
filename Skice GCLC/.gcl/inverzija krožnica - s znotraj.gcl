@@ -1,0 +1,32 @@
+area 15 15 85 65
+
+point \tilde{S} 35 35
+point \tilde{S}' 75 30
+point \tilde{K} 50 40
+midpoint U \tilde{S} \tilde{S}'
+midpoint S U \tilde{S}
+point X 40 60
+
+circle k' \tilde{S} \tilde{K}
+line x X S
+intersection2 A B k' x
+line s \tilde{S}' S
+line u \tilde{S} B
+parallel v \tilde{S}' u
+intersection A' x v
+
+cmark_rt S
+cmark_t \tilde{S}
+cmark_b \tilde{S}'
+mark_r \tilde{K}
+cmark_rt A
+cmark_rb B
+cmark_l A'
+
+drawcircle k'
+drawline x
+drawline s
+drawsegment \tilde{S} B
+drawsegment \tilde{S}' A'
+
+

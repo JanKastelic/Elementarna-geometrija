@@ -1,0 +1,63 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing circle k
+\draw [line width=0.016cm] (2.000000,3.500000) circle (1.500000);%
+
+% Drawing circle k'
+\draw [line width=0.016cm] (4.500000,3.500000) circle (2.000000);%
+
+% Marking point \tilde{S} by circle
+\draw [line width=0.016cm] (2.000000,3.500000) circle (0.040000);%
+\draw (2.000000,3.500000) node [anchor=east] { $\tilde{S}$ };%
+
+% Drawing arc S'' U 165.64
+\draw [line width=0.016cm] (2.562500,3.003922) -- (2.569586,3.004866) arc (278:330:0.500000 and 0.500000) -- (2.935090,3.253633);%
+\draw [line width=0.016cm] (2.963262,3.311883) -- (2.963592,3.312697) arc (338:360:0.500000 and 0.500000) --(3.000000,3.500000) arc (0:22:0.500000 and 0.500000) -- (2.960407,3.695001);%
+\draw [line width=0.016cm] (2.928923,3.756954) -- (2.928584,3.757519) arc (31:82:0.500000 and 0.500000) -- (2.562500,3.996078);%
+
+% Marking point B' by circle
+\draw [line width=0.016cm] (2.927000,3.717000) circle (0.040000);%
+\draw (2.927000,3.717000) node [anchor=south] { $B'$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (2.928000,3.293000) circle (0.040000);%
+\draw (2.928000,3.293000) node [anchor=north] { $A'$ };%
+
+% Marking point \Omega'
+\draw (2.562000,3.996000) node [anchor=east] { $\Omega'$ };%
+
+% Marking point \Sigma'
+\draw (2.562000,3.004000) node [anchor=east] { $\Sigma'$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (5.097000,2.809000) circle (0.040000);%
+\draw (5.097000,2.809000) node [anchor=east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (5.108000,4.228000) circle (0.040000);%
+\draw (5.108000,4.228000) node [anchor=east] { $B$ };%
+
+% Marking point \Omega
+\draw (5.625000,5.153595) node [anchor=west] { $\Omega$ };%
+
+% Marking point \Sigma
+\draw (5.625000,1.846405) node [anchor=west] { $\Sigma$ };%
+
+% Drawing arc N \Omega 82.82
+\draw [line width=0.016cm] (5.625000,5.153595) -- (5.613226,5.140148) arc (139:162:2.500000 and 2.500000) -- (5.120266,4.266073);%
+\draw [line width=0.016cm] (5.096976,4.189549) -- (5.096846,4.189094) arc (164:195:2.500000 and 2.500000) -- (5.086618,2.847629);%
+\draw [line width=0.016cm] (5.108723,2.770757) -- (5.109238,2.769071) arc (197:221:2.500000 and 2.500000) -- (5.624999,1.846406);%
+
+% Marking point S by circle
+\draw [line width=0.016cm] (4.500000,3.500000) circle (0.040000);%
+\draw (4.500000,3.500000) node [anchor=east] { $S$ };%
+
+% Marking point \mathcal{K}
+\draw (6.000000,2.500000) node [anchor=west] { $\mathcal{K}$ };%
+
+% Marking point \tilde{\mathcal{K}}
+\draw (2.000000,2.000000) node [anchor=north] { $\tilde{\mathcal{K}}$ };%
+}
+\end{tikzpicture}

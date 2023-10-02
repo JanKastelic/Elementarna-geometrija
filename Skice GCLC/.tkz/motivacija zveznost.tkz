@@ -1,0 +1,36 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing circle k1
+\draw [line width=0.016cm] (3.999600,1.539998) -- (3.998782,1.569799) arc (2:58:2.000000 and 2.000000) -- (3.034439,3.211705);%
+\draw [line width=0.016cm] (2.965161,3.251703) -- (2.938943,3.265895) arc (62:95:2.000000 and 2.000000) -- (1.800000,3.489975);%
+\draw [line width=0.016cm] (3.936492,0.999999) -- (3.940591,1.016156) arc (346:358:2.000000 and 2.000000) -- (3.999600,1.460001);%
+
+% Drawing circle k2
+\draw [line width=0.016cm] (4.100000,3.497498) -- (4.069799,3.498782) arc (88:118:2.000000 and 2.000000) -- (3.034839,3.251703);%
+\draw [line width=0.016cm] (2.965561,3.211705) -- (2.940162,3.196096) arc (122:178:2.000000 and 2.000000) -- (2.000400,1.539998);%
+\draw [line width=0.016cm] (2.000400,1.460003) -- (2.001218,1.430201) arc (182:194:2.000000 and 2.000000) -- (2.063508,1.000001);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (2.000000,1.500000) circle (0.040000);%
+\draw (2.030000,1.470000) node [anchor=south east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (4.000000,1.500000) circle (0.040000);%
+\draw (3.970000,1.470000) node [anchor=south west] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (3.000000,3.232051) circle (0.040000);%
+\draw (3.000000,3.232051) node [anchor=south] { $C$ };%
+
+% Drawing segment A B
+\draw [line width=0.032cm] (2.040000,1.500000) -- (3.960000,1.500000);%
+
+% Drawing segment A C
+\draw [line width=0.032cm] (2.020000,1.534641) -- (2.980000,3.197410);%
+
+% Drawing segment B C
+\draw [line width=0.032cm] (3.980000,1.534641) -- (3.020000,3.197410);%
+}
+\end{tikzpicture}

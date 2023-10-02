@@ -1,0 +1,27 @@
+area 15 15 50 45
+
+point A 25 25
+point B 40 25
+point C 30 35
+
+cmark_rb A
+cmark_lb B
+cmark_b C
+
+drawline A B
+drawline A C
+drawline B C
+
+point X 0 25
+point Y 100 25
+point Z 65 0
+point Q 0 65
+point R 50 75
+point S 12.5 0
+
+color 127 127 127
+
+filltriangle A S X
+filltriangle B Y Z
+filltriangle C Q R
+

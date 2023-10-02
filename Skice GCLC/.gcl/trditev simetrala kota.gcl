@@ -1,0 +1,27 @@
+area 10 10 45 40
+
+point O 15 15
+point A 40 15
+point B 35 35
+
+line a O A
+line b O B
+
+bisector s A O B
+
+perpendicular t A s
+
+intersection B' t b
+intersection T t s
+
+drawdashline s
+drawline t
+drawline a
+drawline b
+
+cmark_b O
+cmark_lb A
+cmark_lt B
+cmark_l B'
+cmark_rb T
+

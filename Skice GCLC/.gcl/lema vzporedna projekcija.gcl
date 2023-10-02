@@ -1,0 +1,49 @@
+area 10 10 65 60
+
+point t 25 55
+point A 24 50
+point t' 43 55
+point A' 44 50
+point p 60 50
+point q 60 40
+point r 60 15
+point q'' 15 40
+point r' 15 15
+point q' 60 25
+point q''' 15 25
+
+line Q q q''
+line R r r'
+line T t A
+line T' t' A'
+line Q' q' q'''
+
+intersection B Q T
+intersection D T R
+intersection B' Q T'
+intersection D' R T'
+intersection C Q' T
+intersection C' Q' T'
+
+drawline p A
+drawline Q
+drawline T
+drawline R
+drawline T'
+drawline Q'
+
+cmark_lt A
+cmark_lt B
+cmark_lt C
+cmark_rt A'
+cmark_rt B'
+cmark_rt C'
+cmark_lt D
+cmark_rt D'
+
+mark_t p
+mark_t q
+mark_t r
+mark_r t
+mark_r t'
+mark_t q'

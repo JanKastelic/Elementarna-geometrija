@@ -1,0 +1,46 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point A by circle
+\draw [line width=0.016cm] (2.500000,2.500000) circle (0.040000);%
+\draw (2.470000,2.530000) node [anchor=north west] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (4.000000,2.500000) circle (0.040000);%
+\draw (4.030000,2.530000) node [anchor=north east] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (3.000000,3.500000) circle (0.040000);%
+\draw (3.000000,3.500000) node [anchor=north] { $C$ };%
+
+% Drawing line A B
+\draw [line width=0.016cm] (1.500000,2.500000) -- (2.460000,2.500000);%
+\draw [line width=0.016cm] (2.540000,2.500000) -- (3.960000,2.500000);%
+\draw [line width=0.016cm] (4.040000,2.500000) -- (5.000000,2.500000);%
+
+% Drawing line A C
+\draw [line width=0.016cm] (2.000000,1.500000) -- (2.482111,2.464223);%
+\draw [line width=0.016cm] (2.517889,2.535777) -- (2.982111,3.464223);%
+\draw [line width=0.016cm] (3.017889,3.535777) -- (3.500000,4.500000);%
+
+% Drawing line B C
+\draw [line width=0.016cm] (5.000000,1.500000) -- (4.028284,2.471716);%
+\draw [line width=0.016cm] (3.971716,2.528284) -- (3.028284,3.471716);%
+\draw [line width=0.016cm] (2.971716,3.528284) -- (2.000000,4.500000);%
+
+% Changing color 127 127 127
+\definecolor{r127g127b127}{rgb}{0.498039,0.498039,0.498039}%
+\color{r127g127b127}% 
+
+% Filling triangle A S X
+\fill (2.500000,2.500000) -- (1.250000,0.000000) -- (0.000000,2.500000);%
+
+% Filling triangle B Y Z
+\fill (4.000000,2.500000) -- (10.000000,2.500000) -- (6.500000,0.000000);%
+
+% Filling triangle C Q R
+\fill (3.000000,3.500000) -- (0.000000,6.500000) -- (5.000000,7.500000);%
+\color{black}
+}
+\end{tikzpicture}

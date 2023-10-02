@@ -1,0 +1,42 @@
+area 10 10 75 40
+
+point A 15 15
+point B 45 15
+point C 25 35
+
+point A' 50 15
+point B' 70 15
+
+point B'' 35 15
+
+line c A B
+line b A C
+line a B C
+
+parallel b' A' b
+parallel a' B' a
+parallel a'' B'' a
+
+intersection C' a' b'
+intersection C'' a'' b
+
+drawsegment A C
+drawsegment A B
+drawsegment C B
+
+drawsegment A' B'
+drawsegment B' C'
+drawsegment A' C'
+
+drawsegment B C''
+
+drawline a''
+
+cmark_b A
+cmark_b B
+cmark_b A'
+cmark_b B'
+cmark_t C
+cmark_t C'
+cmark_b B''
+cmark_l C''

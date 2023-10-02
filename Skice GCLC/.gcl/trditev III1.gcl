@@ -1,0 +1,23 @@
+area 10 12 50 45
+
+point S 30 30
+point Q 30 15
+oncircle P S Q
+oncircle R S Q
+
+drawsegment R Q
+drawsegment P Q
+
+drawdashcircle S Q
+
+cmark_t S
+
+mediatrice m P Q
+mediatrice n R Q
+
+drawline m
+drawline n
+
+cmark P
+cmark Q
+cmark R

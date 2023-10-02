@@ -1,0 +1,26 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing circle S A
+\draw [line width=0.016cm] (4.499467,3.039996) -- (4.499086,3.052349) arc (2:358:1.500000 and 1.500000) -- (4.499467,2.960003);%
+
+% Drawing segment S Y
+\draw [line width=0.016cm] (3.040000,3.000000) -- (4.460000,3.000000);%
+\draw [line width=0.016cm] (4.540000,3.000000) -- (6.500000,3.000000);%
+
+% Drawing segment A X
+\draw [line width=0.016cm] (4.531235,3.024988) -- (6.375000,4.500000);%
+
+% Marking point S by circle
+\draw [line width=0.016cm] (3.000000,3.000000) circle (0.040000);%
+\draw (3.000000,3.000000) node [anchor=east] { $S$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (4.500000,3.000000) circle (0.040000);%
+\draw (4.530000,2.970000) node [anchor=south east] { $A$ };%
+
+% Marking point K
+\draw (4.000000,4.000000) node [anchor=south west] { $K$ };%
+}
+\end{tikzpicture}

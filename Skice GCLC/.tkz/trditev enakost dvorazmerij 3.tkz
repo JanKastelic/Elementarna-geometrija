@@ -1,0 +1,87 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing line a
+\draw [line width=0.016cm] (3.500000,6.000000) -- (3.960000,6.000000);%
+\draw [line width=0.016cm] (4.040000,6.000000) -- (5.960000,6.000000);%
+\draw [line width=0.016cm] (6.040000,6.000000) -- (9.500000,6.000000);%
+
+% Drawing line b
+\draw [line width=0.016cm] (4.125000,3.500000) -- (4.476000,3.968000);%
+\draw [line width=0.016cm] (4.524000,4.032000) -- (5.430545,5.240727);%
+\draw [line width=0.016cm] (5.478545,5.304727) -- (5.976000,5.968000);%
+\draw [line width=0.016cm] (6.024000,6.032000) -- (6.375000,6.500000);%
+
+% Drawing line c
+\draw [line width=0.016cm] (6.625000,3.500000) -- (6.509701,3.961194);%
+\draw [line width=0.016cm] (6.490299,4.038806) -- (6.295416,4.818337);%
+\draw [line width=0.016cm] (6.276013,4.895949) -- (6.009701,5.961194);%
+\draw [line width=0.016cm] (5.990299,6.038806) -- (5.875000,6.500000);%
+
+% Drawing line d
+\draw [line width=0.016cm] (7.875000,3.500000) -- (7.524000,3.968000);%
+\draw [line width=0.016cm] (7.476000,4.032000) -- (7.224000,4.368000);%
+\draw [line width=0.016cm] (7.176000,4.432000) -- (6.024000,5.968000);%
+\draw [line width=0.016cm] (5.976000,6.032000) -- (5.625000,6.500000);%
+
+% Drawing line P
+\draw [line width=0.016cm] (9.000000,3.500000) -- (7.235777,4.382111);%
+\draw [line width=0.016cm] (7.164223,4.417889) -- (6.321491,4.839254);%
+\draw [line width=0.016cm] (6.249937,4.875031) -- (5.490323,5.254839);%
+\draw [line width=0.016cm] (5.418768,5.290616) -- (4.035777,5.982111);%
+\draw [line width=0.016cm] (3.964223,6.017889) -- (3.500000,6.250000);%
+
+% Drawing line Q
+\draw [line width=0.016cm] (3.500000,4.000000) -- (4.460000,4.000000);%
+\draw [line width=0.016cm] (4.540000,4.000000) -- (6.460000,4.000000);%
+\draw [line width=0.016cm] (6.540000,4.000000) -- (7.460000,4.000000);%
+\draw [line width=0.016cm] (7.540000,4.000000) -- (8.460000,4.000000);%
+\draw [line width=0.016cm] (8.540000,4.000000) -- (9.500000,4.000000);%
+
+% Marking point O by circle
+\draw [line width=0.016cm] (6.000000,6.000000) circle (0.040000);%
+\draw (5.970000,5.970000) node [anchor=south west] { $O$ };%
+
+% Marking point A=A_q by circle
+\draw [line width=0.016cm] (4.000000,6.000000) circle (0.040000);%
+\draw (3.970000,5.970000) node [anchor=south west] { $A=A_q$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (5.454545,5.272727) circle (0.040000);%
+\draw (5.454545,5.272727) node [anchor=north] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (6.285714,4.857143) circle (0.040000);%
+\draw (6.315714,4.887143) node [anchor=north east] { $C$ };%
+
+% Marking point D by circle
+\draw [line width=0.016cm] (7.200000,4.400000) circle (0.040000);%
+\draw (7.170000,4.370000) node [anchor=south west] { $D$ };%
+
+% Marking point p
+\draw (9.000000,3.500000) node [anchor=south] { $p$ };%
+
+% Marking point q
+\draw (9.000000,4.000000) node [anchor=south] { $q$ };%
+
+% Marking point B' by circle
+\draw [line width=0.016cm] (4.500000,4.000000) circle (0.040000);%
+\draw (4.470000,4.030000) node [anchor=north west] { $B'$ };%
+
+% Marking point C' by circle
+\draw [line width=0.016cm] (6.500000,4.000000) circle (0.040000);%
+\draw (6.530000,4.030000) node [anchor=north east] { $C'$ };%
+
+% Marking point D' by circle
+\draw [line width=0.016cm] (7.500000,4.000000) circle (0.040000);%
+\draw (7.530000,4.030000) node [anchor=north east] { $D'$ };%
+
+% Marking point E' by circle
+\draw [line width=0.016cm] (8.500000,4.000000) circle (0.040000);%
+\draw (8.500000,4.000000) node [anchor=south] { $E'$ };%
+
+% Marking point \infty_q=A'
+\draw (3.500000,4.000000) node [anchor=south] { $\infty_q=A'$ };%
+}
+\end{tikzpicture}

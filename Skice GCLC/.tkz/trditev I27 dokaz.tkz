@@ -1,0 +1,54 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing line t'
+\draw [line width=0.016cm] (1.600000,1.000000) -- (2.057486,1.571858);%
+\draw [line width=0.016cm] (2.107462,1.634328) -- (2.975012,2.718765);%
+\draw [line width=0.016cm] (3.024988,2.781235) -- (4.400000,4.500000);%
+
+% Drawing line q'
+\draw [line width=0.016cm] (0.500000,1.160000) -- (1.545318,1.452689);%
+\draw [line width=0.016cm] (1.622355,1.474259) -- (2.043956,1.592308);%
+\draw [line width=0.016cm] (2.120993,1.613878) -- (3.944907,2.124574);%
+\draw [line width=0.016cm] (4.021944,2.146144) -- (5.000000,2.420000);%
+
+% Drawing line p'
+\draw [line width=0.016cm] (0.500000,4.312500) -- (1.250757,3.843277);%
+\draw [line width=0.016cm] (1.318597,3.800877) -- (2.966080,2.771200);%
+\draw [line width=0.016cm] (3.033920,2.728800) -- (3.949505,2.156559);%
+\draw [line width=0.016cm] (4.017345,2.114159) -- (5.000000,1.500000);%
+
+% Marking point p
+\draw (1.000000,4.000000) node [anchor=south west] { $p$ };%
+
+% Marking point q
+\draw (1.000000,1.300000) node [anchor=south east] { $q$ };%
+
+% Marking point t
+\draw (4.000000,4.000000) node [anchor=north west] { $t$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (3.000000,2.750000) circle (0.040000);%
+\draw (3.000000,2.750000) node [anchor=south] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (2.082474,1.603093) circle (0.040000);%
+\draw (2.112474,1.573093) node [anchor=south east] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (3.983425,2.135359) circle (0.040000);%
+\draw (3.983425,2.135359) node [anchor=south] { $C$ };%
+
+% Marking point D by circle
+\draw [line width=0.016cm] (1.583836,1.463474) circle (0.040000);%
+\draw (1.613836,1.433474) node [anchor=south east] { $D$ };%
+
+% Marking point C' by circle
+\draw [line width=0.016cm] (1.284677,3.822077) circle (0.040000);%
+\draw (1.254677,3.792077) node [anchor=south west] { $C'$ };%
+
+% Drawing segment B C'
+\draw [line width=0.016cm] (2.068941,1.640734) -- (1.298210,3.784436);%
+}
+\end{tikzpicture}

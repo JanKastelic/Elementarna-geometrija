@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point A by circle
+\draw [line width=0.016cm] (5.000000,6.000000) circle (0.040000);%
+\draw (5.030000,5.970000) node [anchor=south east] { $A$ };%
+
+% Marking point p
+\draw (7.000000,4.500000) node [anchor=south east] { $p$ };%
+
+% Marking point q
+\draw (6.702703,6.283784) node [anchor=south east] { $q$ };%
+
+% Drawing line r
+\draw [line width=0.016cm] (1.000000,3.500000) -- (8.500000,4.750000);%
+
+% Drawing line s
+\draw [line width=0.016cm] (1.000000,5.333333) -- (4.960544,5.993424);%
+\draw [line width=0.016cm] (5.039456,6.006576) -- (8.500000,6.583333);%
+}
+\end{tikzpicture}

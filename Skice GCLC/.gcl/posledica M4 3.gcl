@@ -1,0 +1,24 @@
+area 10 10 61 65
+
+point S 15 20
+point R 30 25
+point p 60 35
+
+line q R S
+
+mark_lt p
+
+drawline q
+
+point A 15 30
+point B 30 15
+point C 40 25
+
+cmark_lt A
+cmark_rb B
+cmark_rt C
+
+drawsegment A B
+drawsegment B C
+drawdashsegment A C
+

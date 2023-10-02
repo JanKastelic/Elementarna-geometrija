@@ -1,0 +1,36 @@
+area 10 10 75 55
+
+point A 30 15
+point B 45 15
+point C 70 15
+
+point A'' 15 15
+point A' 20 20
+
+point F 20 15
+point G 60 60
+point H 80 15
+
+translate B'' A B A'
+rotate B' A' 45 B''
+
+translate C'' B C B'
+rotate C' B' 45 C''
+
+
+cmark_lt A
+cmark_lt B
+cmark_lt A'
+cmark_lt B'
+cmark_lt C
+cmark_lt C'
+
+drawsegment A'' G
+drawsegment F H
+
+double
+
+drawsegment A B
+drawsegment A' B'
+drawdashsegment B C
+drawdashsegment B' C'

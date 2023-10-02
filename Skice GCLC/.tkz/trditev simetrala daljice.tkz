@@ -1,0 +1,51 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing segment A B
+\draw [line width=0.016cm] (2.040000,1.500000) -- (2.960000,1.500000);%
+\draw [line width=0.016cm] (3.040000,1.500000) -- (3.960000,1.500000);%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (3.985144,1.537139) -- (3.014856,3.962861);%
+
+% Drawing segment A C
+\draw [line width=0.016cm] (2.014856,1.537139) -- (2.985144,3.962861);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (2.000000,1.500000) circle (0.040000);%
+\draw (2.000000,1.500000) node [anchor=north] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (4.000000,1.500000) circle (0.040000);%
+\draw (4.000000,1.500000) node [anchor=north] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (3.000000,4.000000) circle (0.040000);%
+\draw (3.030000,3.970000) node [anchor=south east] { $C$ };%
+
+% Marking point T by circle
+\draw [line width=0.016cm] (3.000000,1.500000) circle (0.040000);%
+\draw (2.970000,1.530000) node [anchor=north west] { $T$ };%
+
+% Drawing line s
+\draw [line width=0.016cm] (3.000000,1.000000) -- (3.000000,1.150000);%
+\draw [line width=0.016cm] (3.000000,1.225000) -- (3.000000,1.375000);%
+\draw [line width=0.016cm] (3.000000,1.450000) -- (3.000000,1.460000);%
+\draw [line width=0.016cm] (3.000000,1.540000) -- (3.000000,1.600000);%
+\draw [line width=0.016cm] (3.000000,1.675000) -- (3.000000,1.825000);%
+\draw [line width=0.016cm] (3.000000,1.900000) -- (3.000000,2.050000);%
+\draw [line width=0.016cm] (3.000000,2.125000) -- (3.000000,2.275000);%
+\draw [line width=0.016cm] (3.000000,2.350000) -- (3.000000,2.500000);%
+\draw [line width=0.016cm] (3.000000,2.575000) -- (3.000000,2.725000);%
+\draw [line width=0.016cm] (3.000000,2.800000) -- (3.000000,2.950000);%
+\draw [line width=0.016cm] (3.000000,3.025000) -- (3.000000,3.175000);%
+\draw [line width=0.016cm] (3.000000,3.250000) -- (3.000000,3.400000);%
+\draw [line width=0.016cm] (3.000000,3.475000) -- (3.000000,3.625000);%
+\draw [line width=0.016cm] (3.000000,3.700000) -- (3.000000,3.850000);%
+\draw [line width=0.016cm] (3.000000,3.925000) -- (3.000000,3.960000);%
+\draw [line width=0.016cm] (3.000000,4.040000) -- (3.000000,4.075000);%
+\draw [line width=0.016cm] (3.000000,4.150000) -- (3.000000,4.300000);%
+\draw [line width=0.016cm] (3.000000,4.375000) -- (3.000000,4.500000);%
+}
+\end{tikzpicture}

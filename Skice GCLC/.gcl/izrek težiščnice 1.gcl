@@ -1,0 +1,36 @@
+area 10 10 75 55
+
+point A 15 15
+point B 70 18
+point C 40 50
+
+midpoint A' B C
+midpoint B' A C
+midpoint C' A B
+
+intersec T A A' B B'
+
+midpoint A'' A T
+midpoint B'' B T
+
+
+
+drawsegment A B
+drawsegment A C
+drawsegment B C
+
+drawsegment A A'
+drawsegment B B'
+
+drawsegment A' B'
+drawsegment A'' B''
+
+
+cmark_lb A
+cmark_rb B
+cmark_t C
+cmark_rt A'
+cmark_lt B'
+cmark_t T
+cmark_lt A''
+cmark_rt B''

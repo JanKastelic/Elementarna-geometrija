@@ -1,0 +1,44 @@
+area 10 10 85 40
+
+point I 15 20
+point H 45 15
+point C 35 30
+point A' 60 25
+
+onsegment A I H
+onsegment D A I
+onsegment B A H
+
+rotate D'' A 10 D
+rotate C'' A 10 C
+rotate B'' A 10 B
+
+translate B' A B'' A'
+translate D' A D'' A'
+translate C' A C'' A'
+
+translate F A' B' B'
+translate G A' D' D'
+
+drawsegment F G
+drawsegment H I
+
+drawsegment D C
+drawsegment  A C
+drawsegment  B C
+
+drawsegment D' C'
+drawsegment A' C'
+drawsegment B' C'
+
+cmark_lb A
+cmark_lb B
+cmark_lt C
+cmark_lb D
+cmark_lb A'
+cmark_lb B'
+cmark_lt C'
+cmark_lb D'
+
+
+

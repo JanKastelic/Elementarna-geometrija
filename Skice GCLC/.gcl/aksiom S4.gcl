@@ -1,0 +1,33 @@
+area 10 10 110 60
+
+point A 15 15
+point G 50 15
+point F 100 30
+point A' 60 25
+
+onsegment B A G
+onsegment B' A' F
+
+rotate H A 30 B
+rotate I A' 30 B'
+rotate I' A' 330 B'
+
+onsegment C A H
+onsegment C' A' I
+onsegment C'' A' I'
+
+cmark_lt A
+cmark_lt B
+cmark_lt C
+cmark_lt A'
+cmark_lt B'
+cmark_lt C'
+cmark_rt C''
+
+drawsegment A G
+drawsegment A H
+drawsegment A' F
+drawsegment A' I
+drawdashsegment A' I'
+
+

@@ -1,0 +1,36 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing segment A B
+\draw [line width=0.016cm] (1.540000,1.500000) -- (3.960000,1.500000);%
+\draw [line width=0.016cm] (4.040000,1.500000) -- (4.960000,1.500000);%
+
+% Drawing segment A C=P=Q=R
+\draw [line width=0.016cm] (1.534300,1.520580) -- (3.965700,2.979420);%
+
+% Drawing segment B C=P=Q=R
+\draw [line width=0.016cm] (4.977812,1.533282) -- (4.022188,2.966718);%
+
+% Drawing line S C=P=Q=R
+\draw [line width=0.016cm] (4.000000,1.000000) -- (4.000000,1.460000);%
+\draw [line width=0.016cm] (4.000000,1.540000) -- (4.000000,2.960000);%
+\draw [line width=0.016cm] (4.000000,3.040000) -- (4.000000,3.500000);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (1.500000,1.500000) circle (0.040000);%
+\draw (1.500000,1.500000) node [anchor=north] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (5.000000,1.500000) circle (0.040000);%
+\draw (5.000000,1.500000) node [anchor=north] { $B$ };%
+
+% Marking point S by circle
+\draw [line width=0.016cm] (4.000000,1.500000) circle (0.040000);%
+\draw (3.970000,1.530000) node [anchor=north west] { $S$ };%
+
+% Marking point C=P=Q=R by circle
+\draw [line width=0.016cm] (4.000000,3.000000) circle (0.040000);%
+\draw (3.970000,2.970000) node [anchor=south west] { $C=P=Q=R$ };%
+}
+\end{tikzpicture}

@@ -1,0 +1,39 @@
+area 15 15 55 50
+
+point A' 20 20
+point M' 30 20
+point B' 40 20
+point A 20 40
+point M 30 40
+point B 40 40
+point t 30 45
+point q 50 20
+point p 50 40
+
+line P A B
+line Q A' B'
+line T M M'
+line W A A'
+line V B B'
+
+
+cmark_lb A'
+cmark_lt A
+cmark_lt B
+cmark_lb B'
+cmark_lt M
+cmark_lb M'
+mark_lt p
+mark_lt q
+mark_lt t
+
+
+drawline P
+drawline Q
+drawline T
+drawline W
+drawline V
+
+drawsegment A M'
+drawsegment B M'
+

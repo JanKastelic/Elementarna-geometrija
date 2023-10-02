@@ -1,0 +1,76 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point B by circle
+\draw [line width=0.016cm] (2.000000,2.000000) circle (0.040000);%
+\draw (2.000000,2.000000) node [anchor=north] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (3.500000,2.000000) circle (0.040000);%
+\draw (3.470000,2.030000) node [anchor=north west] { $C$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (3.500000,4.500000) circle (0.040000);%
+\draw (3.470000,4.470000) node [anchor=south west] { $A$ };%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (2.040000,2.000000) -- (3.460000,2.000000);%
+
+% Drawing segment C A
+\draw [line width=0.016cm] (3.500000,2.040000) -- (3.500000,4.460000);%
+
+% Drawing Bezier curve B X A
+\draw [line width=0.016cm] (2.065972,2.045139) -- (2.033012,2.022587);%
+\draw [line width=0.016cm] (2.130556,2.091667) -- (2.065972,2.045139);%
+\draw [line width=0.016cm] (2.193750,2.139583) -- (2.130556,2.091667);%
+\draw [line width=0.016cm] (2.255556,2.188889) -- (2.193750,2.139583);%
+\draw [line width=0.016cm] (2.315972,2.239583) -- (2.255556,2.188889);%
+\draw [line width=0.016cm] (2.375000,2.291667) -- (2.315972,2.239583);%
+\draw [line width=0.016cm] (2.432639,2.345139) -- (2.375000,2.291667);%
+\draw [line width=0.016cm] (2.488889,2.400000) -- (2.432639,2.345139);%
+\draw [line width=0.016cm] (2.543750,2.456250) -- (2.488889,2.400000);%
+\draw [line width=0.016cm] (2.597222,2.513889) -- (2.543750,2.456250);%
+\draw [line width=0.016cm] (2.649306,2.572917) -- (2.597222,2.513889);%
+\draw [line width=0.016cm] (2.700000,2.633333) -- (2.649306,2.572917);%
+\draw [line width=0.016cm] (2.749306,2.695139) -- (2.700000,2.633333);%
+\draw [line width=0.016cm] (2.797222,2.758333) -- (2.749306,2.695139);%
+\draw [line width=0.016cm] (2.843750,2.822917) -- (2.797222,2.758333);%
+\draw [line width=0.016cm] (2.888889,2.888889) -- (2.843750,2.822917);%
+\draw [line width=0.016cm] (2.932639,2.956250) -- (2.888889,2.888889);%
+\draw [line width=0.016cm] (2.975000,3.025000) -- (2.932639,2.956250);%
+\draw [line width=0.016cm] (3.015972,3.095139) -- (2.975000,3.025000);%
+\draw [line width=0.016cm] (3.055556,3.166667) -- (3.015972,3.095139);%
+\draw [line width=0.016cm] (3.093750,3.239583) -- (3.055556,3.166667);%
+\draw [line width=0.016cm] (3.130556,3.313889) -- (3.093750,3.239583);%
+\draw [line width=0.016cm] (3.165972,3.389583) -- (3.130556,3.313889);%
+\draw [line width=0.016cm] (3.200000,3.466667) -- (3.165972,3.389583);%
+\draw [line width=0.016cm] (3.232639,3.545139) -- (3.200000,3.466667);%
+\draw [line width=0.016cm] (3.263889,3.625000) -- (3.232639,3.545139);%
+\draw [line width=0.016cm] (3.293750,3.706250) -- (3.263889,3.625000);%
+\draw [line width=0.016cm] (3.322222,3.788889) -- (3.293750,3.706250);%
+\draw [line width=0.016cm] (3.349306,3.872917) -- (3.322222,3.788889);%
+\draw [line width=0.016cm] (3.375000,3.958333) -- (3.349306,3.872917);%
+\draw [line width=0.016cm] (3.399306,4.045139) -- (3.375000,3.958333);%
+\draw [line width=0.016cm] (3.422222,4.133333) -- (3.399306,4.045139);%
+\draw [line width=0.016cm] (3.443750,4.222917) -- (3.422222,4.133333);%
+\draw [line width=0.016cm] (3.463889,4.313889) -- (3.443750,4.222917);%
+\draw [line width=0.016cm] (3.482639,4.406250) -- (3.463889,4.313889);%
+\draw [line width=0.016cm] (3.492716,4.460669) -- (3.482639,4.406250);%
+
+% Marking point a
+\draw (2.750000,2.000000) node [anchor=north] { $a$ };%
+
+% Marking point b
+\draw (3.500000,3.250000) node [anchor=west] { $b$ };%
+
+% Marking point c
+\draw (3.000000,3.000000) node [anchor=south east] { $c$ };%
+
+% Marking point \beta
+\draw (2.200000,1.900000) node [anchor=south west] { $\beta$ };%
+
+% Marking point \alpha
+\draw (3.500000,3.700000) node [anchor=north] { $\alpha$ };%
+}
+\end{tikzpicture}

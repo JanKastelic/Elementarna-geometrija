@@ -1,0 +1,55 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing line P
+\draw [line width=0.016cm] (1.000000,2.500000) -- (1.960000,2.500000);%
+\draw [line width=0.016cm] (2.040000,2.500000) -- (3.464323,2.500000);%
+\draw [line width=0.016cm] (3.544323,2.500000) -- (5.468055,2.500000);%
+\draw [line width=0.016cm] (5.548055,2.500000) -- (6.500000,2.500000);%
+
+% Drawing line C' p'
+\draw [line width=0.016cm] (1.000000,1.500000) -- (1.460000,1.500000);%
+\draw [line width=0.016cm] (1.540000,1.500000) -- (2.472970,1.500000);%
+\draw [line width=0.016cm] (2.552970,1.500000) -- (3.955493,1.500000);%
+\draw [line width=0.016cm] (4.035493,1.500000) -- (6.500000,1.500000);%
+
+% Drawing line T
+\draw [line width=0.016cm] (2.017294,1.000000) -- (2.484809,1.471593);%
+\draw [line width=0.016cm] (2.541132,1.528407) -- (3.476162,2.471593);%
+\draw [line width=0.016cm] (3.532485,2.528407) -- (4.495677,3.500000);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (2.000000,2.500000) circle (0.040000);%
+\draw (2.000000,2.500000) node [anchor=south] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (3.504323,2.500000) circle (0.040000);%
+\draw (3.504323,2.500000) node [anchor=south] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (5.508055,2.500000) circle (0.040000);%
+\draw (5.508055,2.500000) node [anchor=south] { $C$ };%
+
+% Marking point p
+\draw (6.000000,2.500000) node [anchor=north] { $p$ };%
+
+% Marking point p'
+\draw (6.000000,1.500000) node [anchor=north] { $p'$ };%
+
+% Marking point t
+\draw (4.000000,3.000000) node [anchor=west] { $t$ };%
+
+% Marking point C' by circle
+\draw [line width=0.016cm] (1.500000,1.500000) circle (0.040000);%
+\draw (1.500000,1.500000) node [anchor=north] { $C'$ };%
+
+% Marking point B' by circle
+\draw [line width=0.016cm] (2.512970,1.500000) circle (0.040000);%
+\draw (2.512970,1.500000) node [anchor=north] { $B'$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (3.995493,1.500000) circle (0.040000);%
+\draw (3.995493,1.500000) node [anchor=north] { $A'$ };%
+}
+\end{tikzpicture}

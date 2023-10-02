@@ -1,0 +1,97 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing line a
+\draw [line width=0.016cm] (2.625000,3.500000) -- (2.788500,3.718000);%
+\draw [line width=0.016cm] (2.836500,3.782000) -- (4.476000,5.968000);%
+\draw [line width=0.016cm] (4.524000,6.032000) -- (5.976000,7.968000);%
+\draw [line width=0.016cm] (6.024000,8.032000) -- (6.375000,8.500000);%
+
+% Drawing line b
+\draw [line width=0.016cm] (3.834475,3.500000) -- (4.135972,4.126515);%
+\draw [line width=0.016cm] (4.170662,4.198603) -- (5.059882,6.046417);%
+\draw [line width=0.016cm] (5.094572,6.118505) -- (5.982655,7.963956);%
+\draw [line width=0.016cm] (6.017345,8.036044) -- (6.240614,8.500000);%
+
+% Drawing line c
+\draw [line width=0.016cm] (5.723775,3.500000) -- (5.793010,4.627909);%
+\draw [line width=0.016cm] (5.797911,4.707759) -- (5.886967,6.158563);%
+\draw [line width=0.016cm] (5.891868,6.238413) -- (5.997549,7.960075);%
+\draw [line width=0.016cm] (6.002451,8.039925) -- (6.030692,8.500000);%
+
+% Drawing line d
+\draw [line width=0.016cm] (6.901653,3.500000) -- (6.624866,4.881397);%
+\draw [line width=0.016cm] (6.609149,4.959838) -- (6.355701,6.224757);%
+\draw [line width=0.016cm] (6.339984,6.303198) -- (6.007859,7.960780);%
+\draw [line width=0.016cm] (5.992141,8.039220) -- (5.899816,8.500000);%
+
+% Drawing line P
+\draw [line width=0.016cm] (2.500000,5.714286) -- (4.460402,5.994343);%
+\draw [line width=0.016cm] (4.539598,6.005657) -- (5.037629,6.076804);%
+\draw [line width=0.016cm] (5.116825,6.088118) -- (5.849819,6.192831);%
+\draw [line width=0.016cm] (5.929015,6.204145) -- (6.308244,6.258321);%
+\draw [line width=0.016cm] (6.387440,6.269634) -- (8.500000,6.571429);%
+
+% Drawing line Q
+\draw [line width=0.016cm] (2.500000,3.653846) -- (2.774269,3.738237);%
+\draw [line width=0.016cm] (2.850731,3.761763) -- (4.115086,4.150796);%
+\draw [line width=0.016cm] (4.191548,4.174323) -- (5.757230,4.656071);%
+\draw [line width=0.016cm] (5.833692,4.679598) -- (6.578777,4.908854);%
+\draw [line width=0.016cm] (6.655239,4.932381) -- (8.500000,5.500000);%
+
+% Marking point O by circle
+\draw [line width=0.016cm] (6.000000,8.000000) circle (0.040000);%
+\draw (6.000000,8.000000) node [anchor=west] { $O$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (4.500000,6.000000) circle (0.040000);%
+\draw (4.530000,5.970000) node [anchor=south east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (5.077227,6.082461) circle (0.040000);%
+\draw (5.107227,6.052461) node [anchor=south east] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (5.889417,6.198488) circle (0.040000);%
+\draw (5.859417,6.168488) node [anchor=south west] { $C$ };%
+
+% Marking point D by circle
+\draw [line width=0.016cm] (6.347842,6.263977) circle (0.040000);%
+\draw (6.317842,6.233977) node [anchor=south west] { $D$ };%
+
+% Marking point p
+\draw (8.000000,6.500000) node [anchor=south] { $p$ };%
+
+% Marking point q
+\draw (8.500000,5.500000) node [anchor=south] { $q$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (2.812500,3.750000) circle (0.040000);%
+\draw (2.842500,3.720000) node [anchor=south east] { $A'$ };%
+
+% Marking point B' by circle
+\draw [line width=0.016cm] (4.153317,4.162559) circle (0.040000);%
+\draw (4.183317,4.132559) node [anchor=south east] { $B'$ };%
+
+% Marking point C' by circle
+\draw [line width=0.016cm] (5.795461,4.667834) circle (0.040000);%
+\draw (5.765461,4.637834) node [anchor=south west] { $C'$ };%
+
+% Marking point D' by circle
+\draw [line width=0.016cm] (6.617008,4.920618) circle (0.040000);%
+\draw (6.587008,4.890618) node [anchor=south west] { $D'$ };%
+
+% Drawing arrow D' q 0.80
+\draw [line width=0.016cm] (7.827605,5.334079) -- (8.123402,5.384124);%
+\draw [line width=0.016cm] (7.827605,5.334079) -- (8.028641,5.354967);%
+\draw [line width=0.016cm] (7.850637,5.259226) -- (8.123402,5.384124);%
+\draw [line width=0.016cm] (7.850637,5.259226) -- (8.028641,5.354967);%
+
+% Drawing arrow D p 0.80
+\draw [line width=0.016cm] (7.369587,6.449496) -- (7.669568,6.452795);%
+\draw [line width=0.016cm] (7.369587,6.449496) -- (7.571420,6.438774);%
+\draw [line width=0.016cm] (7.380662,6.371968) -- (7.669568,6.452795);%
+\draw [line width=0.016cm] (7.380662,6.371968) -- (7.571420,6.438774);%
+}
+\end{tikzpicture}

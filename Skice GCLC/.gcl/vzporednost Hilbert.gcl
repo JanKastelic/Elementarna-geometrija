@@ -1,0 +1,18 @@
+area 10 10 50 50
+
+point X 15 15
+point p 50 20
+point A 30 30
+point q 50 33
+
+line P X p
+
+parallel Q A P
+
+
+cmark_lt A
+mark_lt p
+mark_lt q
+
+drawdashline P
+drawline Q

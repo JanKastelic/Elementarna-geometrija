@@ -1,0 +1,40 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point G by circle
+\draw [line width=0.016cm] (1.500000,2.700000) circle (0.040000);%
+\draw (1.500000,2.700000) node [anchor=east] { $G$ };%
+
+% Marking point E by circle
+\draw [line width=0.016cm] (1.500000,1.500000) circle (0.040000);%
+\draw (1.530000,1.530000) node [anchor=north east] { $E$ };%
+
+% Marking point F by circle
+\draw [line width=0.016cm] (5.000000,1.500000) circle (0.040000);%
+\draw (5.000000,1.500000) node [anchor=north] { $F$ };%
+
+% Drawing segment E H
+\draw [line width=0.016cm] (1.540000,1.500000) -- (4.960000,1.500000);%
+\draw [line width=0.016cm] (5.040000,1.500000) -- (5.500000,1.500000);%
+
+% Drawing segment E I
+\draw [line width=0.016cm] (1.500000,1.540000) -- (1.500000,2.660000);%
+\draw [line width=0.016cm] (1.500000,2.740000) -- (1.500000,3.000000);%
+
+% Drawing segment H I
+\draw [line width=0.016cm] (5.500000,1.500000) -- (1.500000,3.000000);%
+
+% Drawing segment H J
+\draw [line width=0.016cm] (5.500000,1.500000) -- (5.500000,3.000000);%
+
+% Drawing segment I J
+\draw [line width=0.016cm] (1.500000,3.000000) -- (5.500000,3.000000);%
+
+% Drawing segment G F
+\draw [line width=0.016cm] (1.537838,2.687027) -- (4.962162,1.512973);%
+
+% Drawing segment H G
+\draw [line width=0.016cm] (5.500000,1.500000) -- (1.538313,2.688506);%
+}
+\end{tikzpicture}

@@ -1,0 +1,48 @@
+area 35 35 100 70
+
+point O 60 60
+point A 40 60
+point p 90 35
+point x 20 35
+point q 95 65
+midpoint S A p
+onsegment B A S
+onsegment D S p
+onsegment C B D
+point B 53.4 53.3
+point C 68 46
+point D 77.1 41.4
+
+line P A p
+line Q x q
+line a O A
+line b O B
+line c O C
+line d O D
+
+intersection A' a Q
+intersection B' b Q
+intersection C' c Q
+intersection D' d Q
+
+drawline a
+drawline b
+drawline c
+drawline d
+drawline P
+drawline Q
+
+cmark_t O
+cmark_t A
+cmark_t B
+cmark_lb C
+cmark_rt D
+mark_t p
+mark_t q
+cmark_lt A'
+cmark_lt B'
+cmark_l C'
+cmark_r D'
+
+drawarrow A' q 0.8
+drawarrow D p 0.8

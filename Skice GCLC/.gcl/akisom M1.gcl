@@ -1,0 +1,13 @@
+area 10 17 55 65
+
+point A 20 30
+point B 40 45
+point C 50 52.5
+
+line p A B
+
+cmark_lt A
+cmark_lt B
+cmark_lt C
+
+drawline p

@@ -1,0 +1,37 @@
+area 10 15 50 45
+
+point R 20 20
+point S 30 30
+
+circle k S R
+
+drawdashcircle k
+
+point P 35 15
+point V 35 25
+
+
+point F 44.12 30.75
+line u S F
+intersec2 I J u k
+
+drawsegment I J
+drawarrow I J 1
+drawarrow J I 1
+
+point A 23.03 29.63
+point B 35.46 30.29
+cmark_t A
+cmark_t B
+
+point \Sigma 15.88 29.25
+point \Omega 44.12 30.75
+
+mark_l \Sigma
+mark_r \Omega
+
+point \mathcal{K} 20 20
+mark_lb \mathcal{K}
+
+double
+drawsegment A B

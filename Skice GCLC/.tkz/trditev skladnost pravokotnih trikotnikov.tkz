@@ -1,0 +1,78 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing segment A B
+\draw [line width=0.016cm] (3.965700,2.979420) -- (1.534300,1.520580);%
+
+% Drawing segment A C
+\draw [line width=0.016cm] (4.000000,2.960000) -- (4.000000,1.540000);%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (1.540000,1.500000) -- (3.960000,1.500000);%
+
+% Drawing segment D E
+\draw [line width=0.016cm] (6.965700,2.979420) -- (4.534300,1.520580);%
+
+% Drawing segment D F
+\draw [line width=0.016cm] (7.000000,2.960000) -- (7.000000,1.540000);%
+
+% Drawing segment E F
+\draw [line width=0.016cm] (4.540000,1.500000) -- (6.960000,1.500000);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (4.000000,3.000000) circle (0.040000);%
+\draw (4.000000,3.000000) node [anchor=south] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (1.500000,1.500000) circle (0.040000);%
+\draw (1.500000,1.500000) node [anchor=north] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (4.000000,1.500000) circle (0.040000);%
+\draw (4.000000,1.500000) node [anchor=north] { $C$ };%
+
+% Marking point D by circle
+\draw [line width=0.016cm] (7.000000,3.000000) circle (0.040000);%
+\draw (7.000000,3.000000) node [anchor=south] { $D$ };%
+
+% Marking point E by circle
+\draw [line width=0.016cm] (4.500000,1.500000) circle (0.040000);%
+\draw (4.500000,1.500000) node [anchor=north] { $E$ };%
+
+% Marking point F by circle
+\draw [line width=0.016cm] (7.000000,1.500000) circle (0.040000);%
+\draw (7.000000,1.500000) node [anchor=north] { $F$ };%
+
+% Drawing segment A B
+\draw [line width=0.016cm] (10.465700,2.979420) -- (8.034300,1.520580);%
+
+% Drawing segment A C
+\draw [line width=0.016cm] (10.500000,2.960000) -- (10.500000,1.540000);%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (8.040000,1.500000) -- (10.460000,1.500000);%
+
+% Drawing segment A E'
+\draw [line width=0.016cm] (10.534300,2.979420) -- (12.965700,1.520580);%
+
+% Drawing segment C E'
+\draw [line width=0.016cm] (10.540000,1.500000) -- (12.960000,1.500000);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (10.500000,3.000000) circle (0.040000);%
+\draw (10.500000,3.000000) node [anchor=south] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (8.000000,1.500000) circle (0.040000);%
+\draw (8.000000,1.500000) node [anchor=north] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (10.500000,1.500000) circle (0.040000);%
+\draw (10.500000,1.500000) node [anchor=north] { $C$ };%
+
+% Marking point E' by circle
+\draw [line width=0.016cm] (13.000000,1.500000) circle (0.040000);%
+\draw (13.000000,1.500000) node [anchor=north] { $E'$ };%
+}
+\end{tikzpicture}

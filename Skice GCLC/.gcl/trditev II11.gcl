@@ -1,0 +1,45 @@
+area 10 10 52 45
+
+point A 15 20
+point B 35 20
+point C 35 40
+point G 15 15 
+point H 47.3 15
+
+midpoint D A B
+
+cmark A
+cmark B
+cmark C
+
+line a A B
+
+circle K D C
+
+intersection2 E F K a
+
+cmark E
+
+drawdashline A B
+
+drawdasharc D C -63
+drawsegment D C
+drawdashsegment B C
+
+drawsegment G H
+
+midpoint \frac{1+\sqrt{5}}{2} G H
+mark_t \frac{1+\sqrt{5}}{2}
+
+midpoint \frac{\sqrt{5}}{2} D C
+mark_t \frac{\sqrt{5}}{2}
+
+midpoint 1 B C
+mark_r 1
+
+midpoint \frac{1}{2} A D
+mark_t \frac{1}{2}
+
+double
+drawsegment A E
+

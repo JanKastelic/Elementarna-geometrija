@@ -1,0 +1,44 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing segment A B
+\draw [line width=0.016cm] (1.500000,1.500000) -- (5.000000,1.500000);%
+
+% Drawing arrow A B 1.00
+\draw [line width=0.016cm] (4.702567,1.539158) -- (5.000000,1.500000);%
+\draw [line width=0.016cm] (4.702567,1.539158) -- (4.900856,1.500000);%
+\draw [line width=0.016cm] (4.702567,1.460842) -- (5.000000,1.500000);%
+\draw [line width=0.016cm] (4.702567,1.460842) -- (4.900856,1.500000);%
+
+% Drawing arrow B A 1.00
+\draw [line width=0.016cm] (1.797433,1.460842) -- (1.500000,1.500000);%
+\draw [line width=0.016cm] (1.797433,1.460842) -- (1.599144,1.500000);%
+\draw [line width=0.016cm] (1.797433,1.539158) -- (1.500000,1.500000);%
+\draw [line width=0.016cm] (1.797433,1.539158) -- (1.599144,1.500000);%
+
+% Drawing circle S C
+\draw [line width=0.016cm] (7.000000,2.000000) circle (1.000000);%
+
+% Drawing arrow X C 1.00
+\draw [line width=0.016cm] (6.700018,2.996701) -- (7.000000,3.000000);%
+\draw [line width=0.016cm] (6.700018,2.996701) -- (6.901852,2.985979);%
+\draw [line width=0.016cm] (6.711094,2.919172) -- (7.000000,3.000000);%
+\draw [line width=0.016cm] (6.711094,2.919172) -- (6.901852,2.985979);%
+
+% Drawing arrow Y C 1.00
+\draw [line width=0.016cm] (7.290280,2.924252) -- (7.000000,3.000000);%
+\draw [line width=0.016cm] (7.290280,2.924252) -- (7.098379,2.987703);%
+\draw [line width=0.016cm] (7.299994,3.001963) -- (7.000000,3.000000);%
+\draw [line width=0.016cm] (7.299994,3.001963) -- (7.098379,2.987703);%
+
+% Marking point \infty_p
+\draw (1.500000,1.500000) node [anchor=east] { $\infty_p$ };%
+
+% Marking point \infty_p
+\draw (5.000000,1.500000) node [anchor=west] { $\infty_p$ };%
+
+% Marking point \infty_p
+\draw (7.000000,3.000000) node [anchor=south] { $\infty_p$ };%
+}
+\end{tikzpicture}

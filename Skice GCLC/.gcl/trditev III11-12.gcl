@@ -1,0 +1,30 @@
+area 10 10 80 60
+
+point S_1 25 35
+point S_2 70 35
+point D 50 35
+
+drawdashcircle S_1 D
+drawdashcircle S_2 D
+
+cmark_t S_1
+cmark_t S_2
+
+point T 50 38
+
+cmark_rt T
+cmark_lb D
+
+drawsegment S_1 S_2
+drawsegment S_1 T
+drawsegment S_2 T
+
+midpoint r_1 S_1 D
+midpoint r_2 S_2 D
+mark_b r_1
+mark_b r_2
+
+midpoint r_1 S_1 T
+midpoint r_2 S_2 T
+mark_t r_1
+mark_t r_2

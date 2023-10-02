@@ -1,0 +1,25 @@
+area 10 35 85 70
+
+point C 70 45
+point B 40 40
+point A 50 60
+point p 70 45
+
+
+line r C B
+
+parallel s A r
+
+foot q p s
+
+cmark_lt A
+mark_lt p
+mark_lt q
+
+
+
+
+drawline r
+drawline s
+
+

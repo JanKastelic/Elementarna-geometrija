@@ -1,0 +1,19 @@
+area 10 10 65 40
+
+point A 15 15
+point B 40 15
+point C 30 35
+point C' 62.4 15
+
+
+drawsegment A C'
+drawsegment A C
+drawsegment B C
+drawsegment C C'
+
+
+cmark_b A
+cmark_b B
+cmark_t C
+cmark_b C'
+

@@ -1,0 +1,45 @@
+area 10 10 85 35
+
+point D 15 15
+point B 40 15
+point C 30 30
+
+point H 10 15
+point I 45 15
+
+line p D B
+perp r C p
+
+intersec A p r
+
+cmark_lb A
+cmark_lb B
+cmark_lb D
+cmark_lt C
+
+drawsegment H I
+drawline r
+
+point D' 55 15
+point B' 80 15
+point C' 70 30
+point C'' 75 27
+
+point H' 50 15
+point I' 90 15
+point G' 77.5 33
+
+line p' D' B'
+perp r' C' p'
+
+intersec A' p' r'
+
+cmark_lb A'
+cmark_lb B'
+cmark_lb D'
+cmark_lt C'
+cmark_lt C''
+
+drawsegment H' I'
+drawline r'
+drawsegment A' G'

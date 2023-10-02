@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (4.000000,4.000000) circle (0.040000);%
+\draw (4.030000,3.970000) node [anchor=south east] { $A'$ };%
+
+% Marking point p
+\draw (2.000000,4.000000) node [anchor=south east] { $p$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (4.000000,5.000000) circle (0.040000);%
+\draw (4.030000,4.970000) node [anchor=south east] { $A$ };%
+
+% Drawing line w
+\draw [line width=0.016cm] (1.500000,4.000000) -- (3.960000,4.000000);%
+\draw [line width=0.016cm] (4.040000,4.000000) -- (5.500000,4.000000);%
+
+% Drawing line r
+\draw [line width=0.016cm] (1.500000,4.000000) -- (3.960000,4.000000);%
+\draw [line width=0.016cm] (4.040000,4.000000) -- (5.500000,4.000000);%
+
+% Drawing line s
+\draw [line width=0.016cm] (4.000000,3.500000) -- (4.000000,3.960000);%
+\draw [line width=0.016cm] (4.000000,4.040000) -- (4.000000,4.960000);%
+\draw [line width=0.016cm] (4.000000,5.040000) -- (4.000000,5.500000);%
+}
+\end{tikzpicture}

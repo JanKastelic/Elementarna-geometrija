@@ -1,0 +1,30 @@
+area 10 10 60 35
+
+point A 15 15
+point B 25 15
+point C 35 15
+point D 45 15
+point E 55 15
+
+point F 15 20
+point G 15 25
+point H 15 30
+
+point I 25 30
+point J 35 30
+point K 45 30
+point L 55 30
+
+point M 55 20
+point N 55 25
+
+drawsegment A E
+drawsegment A H
+drawsegment F M
+drawsegment G N
+drawsegment B I
+drawsegment C J
+drawsegment D K
+drawsegment E L
+drawsegment H L
+

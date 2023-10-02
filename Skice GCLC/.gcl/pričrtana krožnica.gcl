@@ -1,0 +1,50 @@
+area 10 10 105 60
+
+point A 15 15
+point B 70 15
+point C 50 40
+point D 80 15
+point E 60 47.2
+
+bisector a B A C
+bisector c B C E
+bisector b D B C
+
+drawline A B
+drawline A C
+drawsegment B C
+
+drawdashline a
+drawdashline b
+drawdashline c
+
+intersection I_a a b
+
+line e A B
+perpendicular s I_a e
+intersection P s e
+
+line f A C
+perpendicular r I_a f
+intersection R r f
+
+line g C B
+perpendicular q I_a g
+intersection Q q g
+
+drawsegment I_a Q
+drawsegment I_a P
+drawsegment I_a R
+
+cmark_b A
+cmark_b B
+cmark_t C
+cmark_rb I_a
+
+
+double
+
+drawcircle I_a P
+
+
+

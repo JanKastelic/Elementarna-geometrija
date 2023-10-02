@@ -1,0 +1,79 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing circle k
+\draw [line width=0.016cm] (3.914214,3.500000) arc (0:67:1.414214 and 1.414214) -- (3.037213,4.808206);%
+\draw [line width=0.016cm] (2.962387,4.836487) -- (2.960423,4.837165) arc (71:289:1.414214 and 1.414214) -- (2.962387,2.163513);%
+\draw [line width=0.016cm] (3.037212,2.191794) -- (3.052577,2.198209) arc (293:360:1.414214 and 1.414214) --(3.914214,3.500000) arc (0:0:1.414214 and 1.414214);%
+
+% Drawing segment S L
+\draw [line width=0.016cm] (2.540000,3.500000) -- (2.960000,3.500000);%
+\draw [line width=0.016cm] (3.040000,3.500000) -- (4.460000,3.500000);%
+\draw [line width=0.016cm] (4.540000,3.500000) -- (6.460000,3.500000);%
+\draw [line width=0.016cm] (6.540000,3.500000) -- (7.000000,3.500000);%
+
+% Drawing segment A C'
+\draw [line width=0.016cm] (3.037417,4.808734) -- (6.462583,3.514142);%
+
+% Drawing line t
+\draw [line width=0.016cm] (3.000000,1.500000) -- (3.000000,2.137124);%
+\draw [line width=0.016cm] (3.000000,2.217124) -- (3.000000,3.460000);%
+\draw [line width=0.016cm] (3.000000,3.540000) -- (3.000000,4.782876);%
+\draw [line width=0.016cm] (3.000000,4.862876) -- (3.000000,6.000000);%
+
+% Drawing circle k'
+\draw [line width=0.016cm] (6.499600,3.539998) -- (6.498782,3.569799) arc (2:137:2.000000 and 2.000000) -- (3.026756,4.852610);%
+\draw [line width=0.016cm] (2.973844,4.792613) -- (2.967911,4.785575) arc (140:178:2.000000 and 2.000000) -- (2.500400,3.539998);%
+\draw [line width=0.016cm] (2.500400,3.460003) -- (2.501218,3.430201) arc (182:220:2.000000 and 2.000000) -- (2.973843,2.207388);%
+\draw [line width=0.016cm] (3.026756,2.147391) -- (3.037292,2.136004) arc (223:358:2.000000 and 2.000000) -- (6.499600,3.460001);%
+
+% Drawing segment \tilde{S} A
+\draw [line width=0.016cm] (4.470000,3.526458) -- (3.030000,4.796418);%
+
+% Drawing line n
+\draw [line width=0.016cm] (4.038126,6.000000) -- (3.026458,4.852876);%
+\draw [line width=0.016cm] (2.973542,4.792876) -- (1.000000,2.555089);%
+
+% Drawing line R
+\draw [line width=0.016cm] (1.744071,1.500000) -- (2.485858,3.462583);%
+\draw [line width=0.016cm] (2.514142,3.537417) -- (2.985858,4.785459);%
+\draw [line width=0.016cm] (3.014142,4.860292) -- (3.444911,6.000000);%
+
+% Marking point p
+\draw (3.000000,5.500000) node [anchor=east] { $p$ };%
+
+% Marking point t
+\draw (1.833333,3.500000) node [anchor=south] { $t$ };%
+
+% Marking point S by circle
+\draw [line width=0.016cm] (2.500000,3.500000) circle (0.040000);%
+\draw (2.530000,3.530000) node [anchor=north east] { $S$ };%
+
+% Marking point K
+\draw (1.500000,2.500000) node [anchor=east] { $K$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (3.000000,4.822876) circle (0.040000);%
+\draw (3.030000,4.792876) node [anchor=south east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (3.000000,2.177124) circle (0.040000);%
+\draw (3.030000,2.207124) node [anchor=north east] { $B$ };%
+
+% Marking point C' by circle
+\draw [line width=0.016cm] (6.500000,3.500000) circle (0.040000);%
+\draw (6.470000,3.530000) node [anchor=north west] { $C'$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (3.000000,3.500000) circle (0.040000);%
+\draw (2.970000,3.530000) node [anchor=north west] { $C$ };%
+
+% Marking point \tilde{K}
+\draw (6.500000,2.500000) node  { $\tilde{K}$ };%
+
+% Marking point \tilde{S} by circle
+\draw [line width=0.016cm] (4.500000,3.500000) circle (0.040000);%
+\draw (4.500000,3.500000) node [anchor=north] { $\tilde{S}$ };%
+}
+\end{tikzpicture}

@@ -1,0 +1,20 @@
+area 10 15 50 40
+
+point P 15 20
+point p 45 25
+point A 30 35
+
+line p' p P
+
+perpendicular t' A p'
+
+intersec C t' p'
+onsegment B C P
+
+drawline B A
+drawline p'
+drawline t'
+
+mark_lt p
+cmark_r A
+

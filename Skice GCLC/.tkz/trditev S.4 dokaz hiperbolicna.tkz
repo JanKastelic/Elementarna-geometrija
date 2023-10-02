@@ -1,0 +1,106 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing circle k
+\draw [line width=0.016cm] (3.500000,3.500000) circle (2.000000);%
+
+% Marking point O by circle
+\draw [line width=0.016cm] (3.500000,3.500000) circle (0.040000);%
+\draw (3.500000,3.500000) node [anchor=east] { $O$ };%
+
+% Marking point p
+\draw (3.500000,5.500000) node [anchor=south] { $p$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (4.000000,3.000000) circle (0.040000);%
+\draw (4.000000,3.000000) node [anchor=west] { $A'$ };%
+
+% Drawing segment D p
+\draw [line width=0.016cm] (4.269231,1.653846) -- (4.007845,2.960777);%
+\draw [line width=0.016cm] (3.992155,3.039223) -- (3.500000,5.500000);%
+
+% Marking point \Sigma
+\draw (4.122136,5.400775) node [anchor=south west] { $\Sigma$ };%
+
+% Marking point \Omega
+\draw (4.524205,1.782152) node [anchor=north west] { $\Omega$ };%
+
+% Drawing segment O \Sigma
+\draw [line width=0.016cm] (3.512443,3.538016) -- (4.122136,5.400775);%
+
+% Drawing segment O \Omega
+\draw [line width=0.016cm] (3.520484,3.465643) -- (4.524205,1.782152);%
+
+% Marking point B' by circle
+\draw [line width=0.016cm] (4.500000,3.970000) circle (0.040000);%
+\draw (4.500000,3.970000) node [anchor=south] { $B'$ };%
+
+% Drawing arc S \Sigma 52.40
+\draw [line width=0.016cm] (4.122136,5.400775) -- (4.101527,5.342352) arc (161:193:4.123106 and 4.123106) -- (3.990487,3.038852);%
+\draw [line width=0.016cm] (4.009889,2.961243) -- (4.017386,2.932862) arc (195:212:4.123106 and 4.123106) -- (4.524205,1.782153);%
+
+% Drawing arc S' \Sigma' 96.46
+\draw [line width=0.016cm] (5.236936,4.491490) -- (5.235950,4.491091) arc (112:136:2.039608 and 2.039608) -- (4.520739,4.004204);%
+\draw [line width=0.016cm] (4.467811,3.946253) -- (4.460689,3.938103) arc (139:167:2.039608 and 2.039608) -- (4.008229,3.039144);%
+\draw [line width=0.016cm] (3.992540,2.960702) -- (3.991378,2.954174) arc (170:208:2.039608 and 2.039608) -- (4.206406,1.628907);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (5.800000,1.200000) circle (0.040000);%
+\draw (5.800000,1.200000) node [anchor=south] { $A$ };%
+
+% Drawing segment O U
+\draw [line width=0.016cm] (3.528284,3.471716) -- (3.971716,3.028284);%
+\draw [line width=0.016cm] (4.028284,2.971716) -- (5.771716,1.228284);%
+\draw [line width=0.016cm] (5.828284,1.171716) -- (6.000000,1.000000);%
+
+% Marking point S by circle
+\draw [line width=0.016cm] (8.000000,4.000000) circle (0.040000);%
+\draw (8.000000,4.000000) node [anchor=south] { $S$ };%
+
+% Drawing segment A' S
+\draw [line width=0.016cm] (4.038806,3.009701) -- (4.145521,3.036380);%
+\draw [line width=0.016cm] (4.218282,3.054571) -- (4.363803,3.090951);%
+\draw [line width=0.016cm] (4.436564,3.109141) -- (4.582086,3.145521);%
+\draw [line width=0.016cm] (4.654846,3.163712) -- (4.800368,3.200092);%
+\draw [line width=0.016cm] (4.873128,3.218282) -- (5.018650,3.254662);%
+\draw [line width=0.016cm] (5.091410,3.272853) -- (5.236932,3.309233);%
+\draw [line width=0.016cm] (5.309692,3.327423) -- (5.455214,3.363803);%
+\draw [line width=0.016cm] (5.527974,3.381994) -- (5.673496,3.418374);%
+\draw [line width=0.016cm] (5.746257,3.436564) -- (5.891778,3.472944);%
+\draw [line width=0.016cm] (5.964539,3.491135) -- (6.110060,3.527515);%
+\draw [line width=0.016cm] (6.182821,3.545705) -- (6.328342,3.582086);%
+\draw [line width=0.016cm] (6.401103,3.600276) -- (6.546624,3.636656);%
+\draw [line width=0.016cm] (6.619385,3.654846) -- (6.764906,3.691227);%
+\draw [line width=0.016cm] (6.837667,3.709417) -- (6.983188,3.745797);%
+\draw [line width=0.016cm] (7.055949,3.763987) -- (7.201470,3.800368);%
+\draw [line width=0.016cm] (7.274231,3.818558) -- (7.419752,3.854938);%
+\draw [line width=0.016cm] (7.492513,3.873128) -- (7.638034,3.909509);%
+\draw [line width=0.016cm] (7.710795,3.927699) -- (7.856316,3.964079);%
+\draw [line width=0.016cm] (7.929077,3.982269) -- (7.961194,3.990299);%
+
+% Drawing segment A S
+\draw [line width=0.016cm] (5.824713,1.231453) -- (5.892673,1.317948);%
+\draw [line width=0.016cm] (5.939010,1.376922) -- (6.031683,1.494869);%
+\draw [line width=0.016cm] (6.078020,1.553843) -- (6.170693,1.671791);%
+\draw [line width=0.016cm] (6.217030,1.730765) -- (6.309703,1.848713);%
+\draw [line width=0.016cm] (6.356039,1.907687) -- (6.448713,2.025634);%
+\draw [line width=0.016cm] (6.495049,2.084608) -- (6.587722,2.202556);%
+\draw [line width=0.016cm] (6.634059,2.261530) -- (6.726732,2.379478);%
+\draw [line width=0.016cm] (6.773069,2.438451) -- (6.865742,2.556399);%
+\draw [line width=0.016cm] (6.912079,2.615373) -- (7.004752,2.733321);%
+\draw [line width=0.016cm] (7.051089,2.792295) -- (7.143762,2.910242);%
+\draw [line width=0.016cm] (7.190098,2.969216) -- (7.282772,3.087164);%
+\draw [line width=0.016cm] (7.329108,3.146138) -- (7.421782,3.264086);%
+\draw [line width=0.016cm] (7.468118,3.323060) -- (7.560791,3.441007);%
+\draw [line width=0.016cm] (7.607128,3.499981) -- (7.699801,3.617929);%
+\draw [line width=0.016cm] (7.746138,3.676903) -- (7.838811,3.794851);%
+\draw [line width=0.016cm] (7.885148,3.853824) -- (7.975287,3.968547);%
+
+% Marking point \mathbb{K}
+\draw (3.500000,1.500000) node  { $\mathbb{K}$ };%
+
+% Marking point \tilde{\mathbb{K}}
+\draw (4.000000,4.000000) node  { $\tilde{\mathbb{K}}$ };%
+}
+\end{tikzpicture}

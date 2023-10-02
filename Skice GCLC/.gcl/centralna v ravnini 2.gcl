@@ -1,0 +1,35 @@
+area 10 15 90 50
+
+point B  25 25
+point O 35 35
+point p' 80 35
+point p 80 50
+point q 80 25
+point \infty_p 10 15
+point \infty_q 90 25
+
+intersection A_q \infty_p p O p'
+intersection X B q \infty_p p
+onsegment A X A_q
+intersection A' A O B q
+line u \infty_p p
+parallel x O u
+line v B q
+intersection B_p v x
+
+cmark_lt B_p
+cmark_t O
+mark_b p
+mark_t q
+mark_t \infty_p
+mark_t \infty_q
+cmark_t A
+cmark_rt A'
+cmark_lt A_q
+
+drawline \infty_p p
+drawline B \infty_q
+drawdashline x
+drawline O A
+drawdashline O p'
+

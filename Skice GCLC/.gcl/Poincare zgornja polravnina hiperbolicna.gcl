@@ -1,0 +1,25 @@
+area 15 15 50 30
+
+point A 20 15
+point B 60 15
+
+drawdashline A B
+
+point C 20 40
+drawsegment A C
+drawarrow C A 1
+
+point D 25 15
+point E 35 15
+
+drawcircle E D
+
+point F 30 40
+point G 40 40
+point H 45 15
+
+drawarrow F D 1
+drawarrow G H 1
+
+point \mathcal{H} 45 25
+mark_t \mathcal{H}

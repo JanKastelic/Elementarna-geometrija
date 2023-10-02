@@ -1,0 +1,70 @@
+area 13 15 60 66
+
+point S 35 35
+point R 35 15
+
+circle k S R
+drawcircle k
+cmark_b S
+
+point \Sigma 15 35
+mark_l \Sigma
+
+point \Omega 55 35
+mark_r \Omega
+
+point \tilde{S} 55 65
+cmark_r \tilde{S}
+
+circle k' \tilde{S} \Omega
+drawcircle k'
+
+point X 35 70
+line x X S
+
+intersec2 U A x k'
+
+cmark_l A
+
+drawsegment S X
+
+line r' \tilde{S} A
+
+perpendicular q' A r'
+drawline q'
+
+drawsegment \Sigma \Omega
+
+line s S \Omega
+
+intersec M q' s
+cmark_b M
+
+drawdashsegment \tilde{S} A
+drawdashsegment \tilde{S} \Omega
+drawdashsegment \tilde{S} M
+drawdashsegment A \Omega
+
+point p 20 35
+mark_t p
+
+point q 20 57
+mark_t q
+
+midpoint a A S
+mark_l a
+
+point \Pi(d) 38 41
+mark_b \Pi(d)
+
+point 2\beta 41 33
+mark_t 2\beta
+
+point \beta 52 33
+mark_t \beta
+
+point \mathcal{K} 55 20
+mark \mathcal{K}
+
+point \tilde{\mathcal{K}} 25 60
+mark_r \tilde{\mathcal{K}}

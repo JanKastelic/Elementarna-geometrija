@@ -1,0 +1,21 @@
+area 15 15 65 40
+
+point A 20 35
+point B 20 20
+point C 30 29.15
+point \Omega 60 20
+point Z 60 20.2
+point p 15 20
+point X 25 27
+point Y 15 40
+
+
+drawline A B
+drawsegment p \Omega
+drawbezier3 Y X \Omega
+
+cmark_rb B
+mark_rt p
+mark_r \Omega
+cmark_rt A
+cmark_t C

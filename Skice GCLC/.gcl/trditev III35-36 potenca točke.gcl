@@ -1,0 +1,28 @@
+area 10 10 70 50
+
+point A 15 40
+point S 40 30
+point K 25 20
+point q 65 15
+point p 65 40
+
+mark_t p
+mark_t q
+
+line P A p
+line Q A q
+circle k S K
+
+intersection2 P_2 P_1 P k
+intersection2 Q_1 Q_2 Q k
+
+cmark_rt A
+cmark_lt P_1
+cmark_rt P_2
+cmark_l Q_1
+cmark_b Q_2
+mark_l K
+
+drawline P
+drawline Q
+drawcircle k

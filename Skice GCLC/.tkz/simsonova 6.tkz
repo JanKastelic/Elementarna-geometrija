@@ -1,0 +1,50 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point A by circle
+\draw [line width=0.016cm] (1.500000,1.500000) circle (0.040000);%
+\draw (1.500000,1.500000) node [anchor=north] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (5.000000,1.500000) circle (0.040000);%
+\draw (5.000000,1.500000) node [anchor=north] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (4.000000,3.500000) circle (0.040000);%
+\draw (4.000000,3.500000) node [anchor=south] { $C$ };%
+
+% Marking point P by circle
+\draw [line width=0.016cm] (5.500000,2.500000) circle (0.040000);%
+\draw (5.500000,2.500000) node [anchor=west] { $P$ };%
+
+% Drawing line A B
+\draw [line width=0.016cm] (1.000000,1.500000) -- (1.460000,1.500000);%
+\draw [line width=0.016cm] (1.540000,1.500000) -- (4.960000,1.500000);%
+\draw [line width=0.016cm] (5.040000,1.500000) -- (5.460000,1.500000);%
+\draw [line width=0.016cm] (5.540000,1.500000) -- (6.000000,1.500000);%
+
+% Drawing line A C
+\draw [line width=0.016cm] (5.250000,4.500000) -- (4.458064,3.866451);%
+\draw [line width=0.016cm] (4.395595,3.816476) -- (4.031235,3.524988);%
+\draw [line width=0.016cm] (3.968765,3.475012) -- (1.531235,1.524988);%
+\draw [line width=0.016cm] (1.468765,1.475012) -- (1.000000,1.100000);%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (4.982111,1.535777) -- (4.017889,3.464223);%
+
+% Marking point S by circle
+\draw [line width=0.016cm] (5.500000,1.500000) circle (0.040000);%
+\draw (5.500000,1.500000) node [anchor=north] { $S$ };%
+
+% Marking point R by circle
+\draw [line width=0.016cm] (4.426829,3.841463) circle (0.040000);%
+\draw (4.426829,3.841463) node [anchor=south] { $R$ };%
+
+% Drawing segment P R
+\draw [line width=0.016cm] (5.475012,2.531235) -- (4.451817,3.810229);%
+
+% Drawing segment P S
+\draw [line width=0.016cm] (5.500000,2.460000) -- (5.500000,1.540000);%
+}
+\end{tikzpicture}

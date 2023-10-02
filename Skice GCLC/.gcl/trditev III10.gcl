@@ -1,0 +1,59 @@
+area 10 10 65 40
+
+point S_1 15 25
+point S_2 60 25
+point A 30 25
+
+drawsegment S_1 S_2
+cmark_t S_1
+cmark_t S_2
+
+point P 33 35
+point Q 28 15
+
+cmark P
+cmark Q
+cmark A
+
+drawsegment S_1 P
+drawsegment S_1 Q
+drawsegment S_2 P
+drawsegment S_2 Q
+drawsegment P A
+drawsegment Q A
+
+point X 40 27.5
+drawdasharc X P 62
+
+point Y 35 18.7
+drawdasharc Y A 80
+
+point Z 25 32
+drawdasharc Z P -70
+
+point W 25 20.8
+drawdasharc W Q 105
+
+point \alpha 30 25
+mark_lt \alpha
+
+point \beta 30 25
+mark_lb \beta
+
+point \gamma 30  25
+mark_rt \gamma
+
+point \delta 30 25
+mark_rb \delta
+
+point \alpha 33 35
+mark_lb \alpha
+
+point \beta 28 15
+mark_lt \beta
+
+point \gamma 33  35
+mark_rb \gamma
+
+point \delta 28 15
+mark_rt \delta

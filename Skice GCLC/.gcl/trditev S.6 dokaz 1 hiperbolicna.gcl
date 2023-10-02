@@ -1,0 +1,52 @@
+area 10 15 70 55
+
+point S 30 30
+cmark_b S
+point R 30 15
+
+circle k S R
+drawcircle k
+
+point A 37 32
+cmark_b A
+
+line s A S
+
+midpoint M A S
+cmark_lt M
+
+intersec2 \Omega \Sigma s k
+mark_l \Sigma
+mark_r \Omega
+
+point M' 65 40
+cmark_rt M'
+
+midpoint S' M M'
+
+circle k' S' M
+drawcircle k'
+
+point C 38 37
+point B 42 29
+
+cmark_t C
+cmark_b B
+
+point X 38 34
+drawbezier3 A X C
+
+point Y 39 32
+drawbezier3 A Y B
+
+point Z 39 33
+drawbezier3 C Z B
+
+point U 72 42
+drawsegment \Sigma U
+
+point \mathcal{K} 30 45
+point \tilde{\mathcal{K}} 50 20
+
+mark_t \mathcal{K}
+mark_b \tilde{\mathcal{K}}

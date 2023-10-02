@@ -1,0 +1,37 @@
+area 15 15 60 60
+
+point M 40 55
+point M' 40 35
+point A' 55 35
+point D 20 20
+point \pi 40 35
+point \delta 55 35
+point \gamma 55 35
+point \frac{\pi}{2}-\gamma 40 55
+point \frac{\pi}{2}-\delta 40 55
+point \alpha 20 20
+
+midpoint a D M
+midpoint d_1 A' M
+midpoint m M M'
+
+drawsegment D A'
+drawsegment A' M
+drawsegment M D
+drawsegment D M'
+drawsegment M' A'
+drawsegment M M'
+
+cmark_b D
+cmark_r A'
+cmark_t M
+cmark_lt M'
+mark_r d_1
+mark_lt a
+mark_lb m
+mark_rt \alpha
+mark_l \delta
+mark_lt \gamma
+mark_b \frac{\pi}{2}-\gamma
+mark_rb \frac{\pi}{2}-\delta
+mark_rt \pi

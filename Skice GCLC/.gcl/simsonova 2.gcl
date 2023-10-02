@@ -1,0 +1,21 @@
+area 10 10 60 45
+
+point A 15 25
+point S 50 25
+point R 40 40
+onsegment C A R
+onsegment B A S
+intersection P=Q R S C B
+
+drawline A B
+drawline A R
+drawline B C
+drawline S R
+drawline S C
+
+cmark_b A
+cmark_b B
+cmark_rt S
+cmark_t C
+cmark_t R
+cmark_rt P=Q

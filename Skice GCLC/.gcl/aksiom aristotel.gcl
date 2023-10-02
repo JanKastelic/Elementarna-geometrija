@@ -1,0 +1,26 @@
+area 10 10 70 40
+
+point A 15 15
+point B 20 25
+point X 25 20
+point r 70 20
+point q 70 40
+
+line z X q
+
+onsegment C X r
+
+perpendicular s C z
+
+intersec D z s
+
+cmark_lt A
+cmark_lt B
+mark_lt r
+cmark_lt C
+cmark_lt D
+
+drawsegment X r
+drawsegment X q
+drawsegment C D
+drawsegment A B

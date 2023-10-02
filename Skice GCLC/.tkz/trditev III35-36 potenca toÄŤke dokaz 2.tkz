@@ -1,0 +1,59 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point p
+\draw (7.500000,4.000000) node [anchor=south] { $p$ };%
+
+% Marking point q
+\draw (7.500000,1.500000) node [anchor=south] { $q$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (5.000000,2.500000) circle (0.040000);%
+\draw (5.000000,2.500000) node [anchor=south] { $A$ };%
+
+% Marking point P_1 by circle
+\draw [line width=0.016cm] (6.722101,3.533261) circle (0.040000);%
+\draw (6.692101,3.563261) node [anchor=north west] { $P_1$ };%
+
+% Marking point P_2 by circle
+\draw [line width=0.016cm] (3.719075,1.731445) circle (0.040000);%
+\draw (3.719075,1.731445) node [anchor=north] { $P_2$ };%
+
+% Marking point Q_1 by circle
+\draw [line width=0.016cm] (6.444971,1.922012) circle (0.040000);%
+\draw (6.444971,1.922012) node [anchor=north] { $Q_1$ };%
+
+% Marking point Q_2 by circle
+\draw [line width=0.016cm] (3.210201,3.215919) circle (0.040000);%
+\draw (3.240201,3.245919) node [anchor=north east] { $Q_2$ };%
+
+% Marking point K
+\draw (3.500000,2.000000) node [anchor=east] { $K$ };%
+
+% Drawing line P
+\draw [line width=0.016cm] (2.500000,1.000000) -- (3.684775,1.710865);%
+\draw [line width=0.016cm] (3.753375,1.752025) -- (4.965700,2.479420);%
+\draw [line width=0.016cm] (5.034300,2.520580) -- (6.687802,3.512681);%
+\draw [line width=0.016cm] (6.756401,3.553841) -- (8.000000,4.300000);%
+
+% Drawing line Q
+\draw [line width=0.016cm] (2.000000,3.700000) -- (3.173062,3.230775);%
+\draw [line width=0.016cm] (3.247341,3.201064) -- (4.962861,2.514856);%
+\draw [line width=0.016cm] (5.037139,2.485144) -- (6.407832,1.936867);%
+\draw [line width=0.016cm] (6.482110,1.907156) -- (8.000000,1.300000);%
+
+% Drawing circle k
+\draw [line width=0.016cm] (6.802776,3.000000) arc (0:15:1.802776 and 1.802776) -- (6.733509,3.494922);%
+\draw [line width=0.016cm] (6.709846,3.571337) -- (6.704558,3.586926) arc (19:171:1.802776 and 1.802776) -- (3.215433,3.255576);%
+\draw [line width=0.016cm] (3.205852,3.176157) -- (3.204084,3.157123) arc (175:223:1.802776 and 1.802776) -- (3.691245,1.760177);%
+\draw [line width=0.016cm] (3.747535,1.703338) -- (3.747687,1.703192) arc (226:322:1.802776 and 1.802776) -- (6.420698,1.890217);%
+\draw [line width=0.016cm] (6.468532,1.954336) -- (6.476747,1.965970) arc (325:360:1.802776 and 1.802776) --(6.802776,3.000000) arc (0:0:1.802776 and 1.802776);%
+
+% Drawing segment Q_1 P_2
+\draw [line width=0.016cm] (6.405068,1.919222) -- (3.758978,1.734235);%
+
+% Drawing segment P_1 Q_2
+\draw [line width=0.016cm] (6.682264,3.529661) -- (3.250039,3.219519);%
+}
+\end{tikzpicture}

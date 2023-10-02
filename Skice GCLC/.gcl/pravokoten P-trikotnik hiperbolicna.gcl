@@ -1,0 +1,28 @@
+area 15 15 40 50
+
+point B 20 20
+point C 35 20
+point A 35 45
+point X 32 28
+
+cmark_b B
+cmark_rb C
+cmark_rt A
+
+drawsegment B C
+drawsegment C A
+drawbezier3 B X A
+
+midpoint b C A
+midpoint a B C
+point c 30 30
+
+mark_b a
+mark_r b
+mark_lt c
+
+point \beta 22 19
+mark_rt \beta
+
+point \alpha 35 37
+mark_b \alpha

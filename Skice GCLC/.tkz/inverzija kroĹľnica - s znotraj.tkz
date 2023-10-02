@@ -1,0 +1,56 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point S by circle
+\draw [line width=0.016cm] (4.500000,3.375000) circle (0.040000);%
+\draw (4.470000,3.345000) node [anchor=south west] { $S$ };%
+
+% Marking point \tilde{S} by circle
+\draw [line width=0.016cm] (3.500000,3.500000) circle (0.040000);%
+\draw (3.500000,3.500000) node [anchor=south] { $\tilde{S}$ };%
+
+% Marking point \tilde{S}' by circle
+\draw [line width=0.016cm] (7.500000,3.000000) circle (0.040000);%
+\draw (7.500000,3.000000) node [anchor=north] { $\tilde{S}'$ };%
+
+% Marking point \tilde{K}
+\draw (5.000000,4.000000) node [anchor=west] { $\tilde{K}$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (4.206786,4.914374) circle (0.040000);%
+\draw (4.176786,4.884374) node [anchor=south west] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (4.677240,2.444488) circle (0.040000);%
+\draw (4.647240,2.474488) node [anchor=north west] { $B$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (3.968279,6.166535) circle (0.040000);%
+\draw (3.968279,6.166535) node [anchor=east] { $A'$ };%
+
+% Drawing circle k'
+\draw [line width=0.016cm] (5.081139,3.500000) arc (0:61:1.581139 and 1.581139) -- (4.242338,4.896042);%
+\draw [line width=0.016cm] (4.170781,4.931800) -- (4.168218,4.932998) arc (65:316:1.581139 and 1.581139) -- (4.650163,2.415046);%
+\draw [line width=0.016cm] (4.703564,2.474605) -- (4.711222,2.483663) arc (320:360:1.581139 and 1.581139);%
+
+% Drawing line x
+\draw [line width=0.016cm] (4.857143,1.500000) -- (4.684725,2.405195);%
+\draw [line width=0.016cm] (4.669756,2.483782) -- (4.507484,3.335706);%
+\draw [line width=0.016cm] (4.492516,3.414294) -- (4.214270,4.875080);%
+\draw [line width=0.016cm] (4.199301,4.953667) -- (3.975763,6.127242);%
+\draw [line width=0.016cm] (3.960794,6.205829) -- (3.904762,6.500000);%
+
+% Drawing line s
+\draw [line width=0.016cm] (1.500000,3.750000) -- (3.460309,3.504961);%
+\draw [line width=0.016cm] (3.539691,3.495039) -- (4.460309,3.379961);%
+\draw [line width=0.016cm] (4.539691,3.370039) -- (7.460309,3.004961);%
+\draw [line width=0.016cm] (7.539691,2.995039) -- (8.500000,2.875000);%
+
+% Drawing segment \tilde{S} B
+\draw [line width=0.016cm] (3.529782,3.473297) -- (4.647458,2.471191);%
+
+% Drawing segment \tilde{S}' A'
+\draw [line width=0.016cm] (7.470218,3.026703) -- (3.998061,6.139833);%
+}
+\end{tikzpicture}

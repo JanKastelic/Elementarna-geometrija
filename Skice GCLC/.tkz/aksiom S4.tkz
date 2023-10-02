@@ -1,0 +1,64 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point A by circle
+\draw [line width=0.016cm] (1.500000,1.500000) circle (0.040000);%
+\draw (1.530000,1.470000) node [anchor=south east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (4.400769,1.500000) circle (0.040000);%
+\draw (4.430769,1.470000) node [anchor=south east] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (3.311022,2.545594) circle (0.040000);%
+\draw (3.341022,2.515594) node [anchor=south east] { $C$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (6.000000,2.500000) circle (0.040000);%
+\draw (6.030000,2.470000) node [anchor=south east] { $A'$ };%
+
+% Marking point B' by circle
+\draw [line width=0.016cm] (8.499100,2.812387) circle (0.040000);%
+\draw (8.529100,2.782387) node [anchor=south east] { $B'$ };%
+
+% Marking point C' by circle
+\draw [line width=0.016cm] (7.136081,3.359991) circle (0.040000);%
+\draw (7.166081,3.329991) node [anchor=south east] { $C'$ };%
+
+% Marking point C'' by circle
+\draw [line width=0.016cm] (6.870489,2.132739) circle (0.040000);%
+\draw (6.840489,2.102739) node [anchor=south west] { $C''$ };%
+
+% Drawing segment A G
+\draw [line width=0.016cm] (1.540000,1.500000) -- (4.360769,1.500000);%
+\draw [line width=0.016cm] (4.440769,1.500000) -- (5.000000,1.500000);%
+
+% Drawing segment A H
+\draw [line width=0.016cm] (1.534641,1.520000) -- (3.276381,2.525594);%
+\draw [line width=0.016cm] (3.345663,2.565594) -- (4.012140,2.950384);%
+
+% Drawing segment A' F
+\draw [line width=0.016cm] (6.039691,2.504961) -- (8.459409,2.807426);%
+\draw [line width=0.016cm] (8.538791,2.817349) -- (10.000000,3.000000);%
+
+% Drawing segment A' I
+\draw [line width=0.016cm] (6.031893,2.524142) -- (7.104188,3.335849);%
+\draw [line width=0.016cm] (7.167974,3.384134) -- (8.008090,4.020085);%
+
+% Drawing segment A' I'
+\draw [line width=0.016cm] (6.036854,2.484451) -- (6.138203,2.441692);%
+\draw [line width=0.016cm] (6.207305,2.412538) -- (6.345508,2.354229);%
+\draw [line width=0.016cm] (6.414610,2.325075) -- (6.552813,2.266767);%
+\draw [line width=0.016cm] (6.621915,2.237613) -- (6.760118,2.179304);%
+\draw [line width=0.016cm] (6.829220,2.150150) -- (6.833635,2.148288);%
+\draw [line width=0.016cm] (6.907343,2.117190) -- (6.967423,2.091842);%
+\draw [line width=0.016cm] (7.036524,2.062688) -- (7.174728,2.004379);%
+\draw [line width=0.016cm] (7.243829,1.975225) -- (7.382033,1.916917);%
+\draw [line width=0.016cm] (7.451134,1.887763) -- (7.589338,1.829455);%
+\draw [line width=0.016cm] (7.658439,1.800300) -- (7.796642,1.741992);%
+\draw [line width=0.016cm] (7.865744,1.712838) -- (8.003947,1.654530);%
+\draw [line width=0.016cm] (8.073049,1.625376) -- (8.211252,1.567067);%
+\draw [line width=0.016cm] (8.280354,1.537913) -- (8.320477,1.520985);%
+}
+\end{tikzpicture}

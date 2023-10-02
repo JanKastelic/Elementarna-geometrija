@@ -1,0 +1,100 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing segment A B
+\draw [line width=0.016cm] (1.539941,1.502179) -- (4.210059,1.647821);%
+\draw [line width=0.016cm] (4.289941,1.652179) -- (6.960059,1.797821);%
+
+% Drawing segment A C
+\draw [line width=0.016cm] (1.528284,1.528284) -- (3.221716,3.221716);%
+\draw [line width=0.016cm] (3.278284,3.278284) -- (4.971716,4.971716);%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (6.978800,1.833920) -- (6.021200,3.366080);%
+\draw [line width=0.016cm] (5.978800,3.433920) -- (5.021200,4.966080);%
+
+% Drawing segment A A'
+\draw [line width=0.016cm] (1.536850,1.515559) -- (4.463150,2.751108);%
+\draw [line width=0.016cm] (4.536850,2.782226) -- (5.963150,3.384441);%
+
+% Drawing segment B B'
+\draw [line width=0.016cm] (6.962692,1.814426) -- (4.537308,2.752241);%
+\draw [line width=0.016cm] (4.462692,2.781092) -- (3.287308,3.235574);%
+
+% Drawing segment C C'
+\draw [line width=0.016cm] (4.991261,4.960966) -- (4.508739,2.805700);%
+\draw [line width=0.016cm] (4.491261,2.727633) -- (4.258739,1.689034);%
+
+% Drawing segment T N
+\draw [line width=0.016cm] (4.471716,2.794951) -- (4.393934,2.872733);%
+\draw [line width=0.016cm] (4.340901,2.925766) -- (4.234835,3.031832);%
+\draw [line width=0.016cm] (4.181802,3.084865) -- (4.075736,3.190931);%
+\draw [line width=0.016cm] (4.022703,3.243964) -- (3.916637,3.350030);%
+\draw [line width=0.016cm] (3.863604,3.403063) -- (3.757538,3.509129);%
+\draw [line width=0.016cm] (3.704505,3.562162) -- (3.633333,3.633333);%
+
+% Drawing segment T M
+\draw [line width=0.016cm] (4.533920,2.787867) -- (4.627200,2.846167);%
+\draw [line width=0.016cm] (4.690800,2.885916) -- (4.817999,2.965416);%
+\draw [line width=0.016cm] (4.881599,3.005166) -- (5.008799,3.084666);%
+\draw [line width=0.016cm] (5.072399,3.124416) -- (5.199599,3.203916);%
+\draw [line width=0.016cm] (5.263198,3.243666) -- (5.390398,3.323166);%
+\draw [line width=0.016cm] (5.453998,3.362915) -- (5.581198,3.442415);%
+\draw [line width=0.016cm] (5.644798,3.482165) -- (5.771997,3.561665);%
+\draw [line width=0.016cm] (5.835597,3.601415) -- (5.863296,3.618727);%
+
+% Drawing segment T O
+\draw [line width=0.016cm] (4.502179,2.726726) -- (4.508170,2.616889);%
+\draw [line width=0.016cm] (4.512255,2.542001) -- (4.520424,2.392223);%
+\draw [line width=0.016cm] (4.524509,2.317335) -- (4.532679,2.167557);%
+\draw [line width=0.016cm] (4.536764,2.092669) -- (4.544933,1.942891);%
+\draw [line width=0.016cm] (4.549018,1.868003) -- (4.557188,1.718225);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (1.500000,1.500000) circle (0.040000);%
+\draw (1.530000,1.530000) node [anchor=north east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (7.000000,1.800000) circle (0.040000);%
+\draw (6.970000,1.830000) node [anchor=north west] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (5.000000,5.000000) circle (0.040000);%
+\draw (5.000000,5.000000) node [anchor=south] { $C$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (6.000000,3.400000) circle (0.040000);%
+\draw (5.970000,3.370000) node [anchor=south west] { $A'$ };%
+
+% Marking point B' by circle
+\draw [line width=0.016cm] (3.250000,3.250000) circle (0.040000);%
+\draw (3.280000,3.220000) node [anchor=south east] { $B'$ };%
+
+% Marking point C' by circle
+\draw [line width=0.016cm] (4.250000,1.650000) circle (0.040000);%
+\draw (4.250000,1.650000) node [anchor=north] { $C'$ };%
+
+% Marking point T by circle
+\draw [line width=0.016cm] (4.500000,2.766667) circle (0.040000);%
+\draw (4.530000,2.796667) node [anchor=north east] { $T$ };%
+
+% Marking point p_1
+\draw (3.000000,2.500000) node  { $p_1$ };%
+
+% Marking point p_2
+\draw (5.200000,3.500000) node  { $p_2$ };%
+
+% Marking point p_3
+\draw (3.500000,2.000000) node  { $p_3$ };%
+
+% Marking point p_4
+\draw (5.200000,2.000000) node  { $p_4$ };%
+
+% Marking point p_1
+\draw (4.200000,3.700000) node  { $p_1$ };%
+
+% Marking point p_2
+\draw (5.700000,2.700000) node  { $p_2$ };%
+}
+\end{tikzpicture}

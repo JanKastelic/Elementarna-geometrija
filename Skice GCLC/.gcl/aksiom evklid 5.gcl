@@ -1,0 +1,27 @@
+area 10 10 70 40
+
+point \alpha 25 35
+point \beta 20 20
+point q 40 35
+point p 40 27
+
+line T \beta \alpha
+line Q \alpha q
+line P \beta p
+
+intersec W P Q
+
+onsegment t \alpha \beta
+
+drawline T 
+drawline Q 
+drawline P
+
+mark_lt q
+mark_lt p
+mark_rb \alpha
+mark_rt \beta
+cmark W
+mark_lt t
+
+

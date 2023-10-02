@@ -1,0 +1,41 @@
+area 10 15 70 45
+
+point A 20 40
+point B 20 20
+point q 15 40
+point p 15 20
+point X' 70 0
+point Y' 60 21
+point U' 44 20
+point U 35 15
+point Y 29.9 26.9
+point C' 55 37.4
+point X 34 29.8
+point Z 37.4 32.1
+point Z' 150 -10
+point U'' 50 25
+point E' 55.1 43
+point B' 15.4 17
+
+line r B X
+
+drawline A B
+drawline A q
+drawline B p
+drawline r
+
+intersec E q A B X
+
+
+drawbezier3 A U X'
+drawbezier3 A U' Y'
+drawbezier3 A U'' Z'
+
+cmark_rt A
+cmark_rb B
+mark_lt p
+mark_lt q
+cmark_b X
+cmark_b Y
+cmark_t Z
+cmark_lt E

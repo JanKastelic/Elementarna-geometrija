@@ -1,0 +1,30 @@
+area 10 10 60 60
+
+point P 35 15
+point S 35 35
+point A 17.2 26
+point B 52.4 25
+point C 49 49.2
+point D' 27.5 53.5
+
+circle K S P
+
+drawcircle K
+
+
+cmark_l A
+cmark_b B
+cmark_r C
+cmark_t D'
+
+
+drawline A B
+drawsegment B C
+drawsegment B D'
+drawsegment D' A
+drawsegment A C
+
+onsegment D A D'
+
+cmark_l D
+drawsegment B D

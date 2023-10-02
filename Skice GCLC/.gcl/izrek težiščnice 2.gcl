@@ -1,0 +1,65 @@
+area 10 10 75 55
+
+point A 15 15
+point B 70 18
+point C 50 50
+
+midpoint A' B C
+midpoint B' A C
+midpoint C' A B
+
+intersec T A A' B B'
+
+midpoint A'' A T
+midpoint B'' B T
+
+line b A C
+perpendicular r T b
+intersec N b r
+
+line a B C
+perpendicular s T a
+intersec M s a
+
+line c A B
+perpendicular q T c
+intersec O c q
+
+drawsegment A B
+drawsegment A C
+drawsegment B C
+
+drawsegment A A'
+drawsegment B B'
+drawsegment C C'
+
+drawdashsegment T N
+drawdashsegment T M
+drawdashsegment T O
+
+cmark_lb A
+cmark_rb B
+cmark_t C
+cmark_rt A'
+cmark_lt B'
+cmark_b C'
+cmark_lb T
+
+point p_1 30 25
+point p_2 52 35
+point p_3 35 20
+point p_4 52 20
+
+mark p_1
+mark p_2
+mark p_3
+mark p_4
+
+point p_1 42 37
+point p_2 57 27
+
+mark p_1
+mark p_2
+
+
+

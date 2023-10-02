@@ -1,0 +1,34 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing circle S A
+\draw [line width=0.016cm] (4.499467,3.039996) -- (4.499086,3.052349) arc (2:358:1.500000 and 1.500000) -- (4.499467,2.960003);%
+
+% Drawing circle U A
+\draw [line width=0.016cm] (4.498933,3.039986) -- (4.498173,3.052317) arc (4:176:0.750000 and 0.750000) -- (3.001067,3.039986);%
+\draw [line width=0.016cm] (3.001067,2.960014) -- (3.001827,2.947683) arc (184:356:0.750000 and 0.750000) -- (4.498933,2.960014);%
+
+% Drawing segment S Y
+\draw [line width=0.016cm] (3.040000,3.000000) -- (4.460000,3.000000);%
+\draw [line width=0.016cm] (4.540000,3.000000) -- (5.000000,3.000000);%
+
+% Drawing line u
+\draw [line width=0.016cm] (4.500000,1.500000) -- (4.500000,2.960000);%
+\draw [line width=0.016cm] (4.500000,3.040000) -- (4.500000,4.500000);%
+
+% Marking point S by circle
+\draw [line width=0.016cm] (3.000000,3.000000) circle (0.040000);%
+\draw (3.000000,3.000000) node [anchor=east] { $S$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (4.500000,3.000000) circle (0.040000);%
+\draw (4.470000,2.970000) node [anchor=south west] { $A$ };%
+
+% Marking point K
+\draw (4.000000,4.000000) node [anchor=south west] { $K$ };%
+
+% Marking point p
+\draw (4.500000,2.000000) node [anchor=west] { $p$ };%
+}
+\end{tikzpicture}

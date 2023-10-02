@@ -1,0 +1,25 @@
+area 15 15 55 45
+
+point A 25 40
+point B 20 20
+point \Omega 50 30
+point X 25 30
+point Y 28 33
+
+drawline A B
+drawbezier3 A Y \Omega
+drawbezier3 B X \Omega
+
+cmark_l A
+cmark_l B
+mark_r \Omega
+
+point \beta 20 25
+point \alpha 23 35
+point \beta'>\beta 25 40
+point \alpha'>\alpha 20 20
+
+mark_r \beta
+mark_r \alpha
+mark_r \beta'>\beta
+mark_r \alpha'>\alpha

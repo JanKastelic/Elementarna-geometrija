@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing line t'
+\draw [line width=0.016cm] (4.000000,2.000000) -- (1.500000,4.500000);%
+
+% Drawing line q'
+\draw [line width=0.016cm] (1.000000,2.500000) -- (5.000000,2.500000);%
+
+% Drawing line p'
+\draw [line width=0.016cm] (1.000000,3.500000) -- (5.000000,3.500000);%
+
+% Marking point p
+\draw (1.500000,3.500000) node [anchor=south east] { $p$ };%
+
+% Marking point q
+\draw (1.500000,2.500000) node [anchor=south east] { $q$ };%
+
+% Marking point t
+\draw (2.000000,4.000000) node [anchor=south west] { $t$ };%
+
+% Marking point \phi
+\draw (2.500000,3.500000) node [anchor=north west] { $\phi$ };%
+
+% Marking point \phi
+\draw (3.500000,2.500000) node [anchor=south east] { $\phi$ };%
+}
+\end{tikzpicture}

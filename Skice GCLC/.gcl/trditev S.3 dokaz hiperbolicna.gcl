@@ -1,0 +1,39 @@
+area 15 15 60 60
+
+point S 45 30
+point R 60 30
+circle l S R
+drawcircle l
+
+point B 50 30
+point B' 40 30
+point P 65 30
+point P' 25 30
+circle k P B
+circle k' P' B'
+cmark_l B
+cmark_r B'
+
+intersection2 \Sigma \Omega l k
+mark_rt \Omega
+mark_rb \Sigma
+
+
+intersection2 \Sigma' \Omega' l k'
+mark_lt \Omega'
+mark_lb \Sigma'
+
+angle alpha \Omega P \Sigma
+angle beta \Omega' P' \Sigma'
+
+drawarc P \Omega alpha
+drawarc P' \Sigma' beta
+
+point A 50.9 25
+point A' 39.1 25
+point C 50.9 35
+point C' 39.1 35
+cmark_r C'
+cmark_r A'
+cmark_l A
+cmark_l C

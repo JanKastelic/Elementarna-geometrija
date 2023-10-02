@@ -1,0 +1,43 @@
+area 25 25 90 55
+
+point B 40 40
+point A 70 40
+point M 90 50
+point Y 50 50
+point Z 60 30
+point x 15 25
+
+line a A B
+line b A Z
+line c B Y
+line d x M
+
+intersection \infty_Z d b
+intersection \infty_Y c d
+intersection \infty_X a d
+
+drawline a
+drawline b
+drawline c
+drawline d
+drawline Y A
+drawline Z B
+
+cmark_t A
+cmark_t B
+cmark_t Z
+cmark_t Y
+cmark_b \infty_X
+cmark_rb \infty_Z
+cmark_rb \infty_Y
+
+point O 50 60
+point I 60 60
+line o O I
+intersection K o b
+intersection L o c
+point H 90 40
+
+drawarrow \infty_Z K 0.6
+drawarrow \infty_Y L 0.8
+drawarrow A H 0.9

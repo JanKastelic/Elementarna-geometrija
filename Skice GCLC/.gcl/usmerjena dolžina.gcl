@@ -1,0 +1,14 @@
+area 10 10 50 25
+
+point A 15 15
+point p 45 20
+midpoint P A p
+onsegment B A P
+
+cmark_t A
+cmark_t B
+mark_t p
+
+drawline A p
+
+drawarrow A p 0.8

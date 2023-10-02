@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing segment A E
+\draw [line width=0.016cm] (1.500000,1.500000) -- (5.500000,1.500000);%
+
+% Drawing segment A H
+\draw [line width=0.016cm] (1.500000,1.500000) -- (1.500000,3.000000);%
+
+% Drawing segment F M
+\draw [line width=0.016cm] (1.500000,2.000000) -- (5.500000,2.000000);%
+
+% Drawing segment G N
+\draw [line width=0.016cm] (1.500000,2.500000) -- (5.500000,2.500000);%
+
+% Drawing segment B I
+\draw [line width=0.016cm] (2.500000,1.500000) -- (2.500000,3.000000);%
+
+% Drawing segment C J
+\draw [line width=0.016cm] (3.500000,1.500000) -- (3.500000,3.000000);%
+
+% Drawing segment D K
+\draw [line width=0.016cm] (4.500000,1.500000) -- (4.500000,3.000000);%
+
+% Drawing segment E L
+\draw [line width=0.016cm] (5.500000,1.500000) -- (5.500000,3.000000);%
+
+% Drawing segment H L
+\draw [line width=0.016cm] (1.500000,3.000000) -- (5.500000,3.000000);%
+}
+\end{tikzpicture}

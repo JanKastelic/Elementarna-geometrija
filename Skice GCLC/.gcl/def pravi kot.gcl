@@ -1,0 +1,28 @@
+area 10 35 85 70
+
+point B 70 40
+point A 40 40
+point C 20 40
+point D 40 60
+point E 100 45
+
+line p A B
+line r A C
+line s A D
+
+
+cmark_lt A
+cmark_lt B
+cmark_lt C
+cmark_lt D
+
+
+drawline p
+drawline r
+drawline s
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing circle k
+\draw [line width=0.016cm] (3.947002,2.500000) arc (0:27:1.447002 and 1.447002) -- (3.789129,3.157236);%
+\draw [line width=0.016cm] (3.750840,3.227470) -- (3.740323,3.245261) arc (31:359:1.447002 and 1.447002) -- (3.947002,2.500000);%
+
+% Drawing segment A B
+\draw [line width=0.016cm] (3.038806,3.009701) -- (3.731665,3.182916);%
+\draw [line width=0.016cm] (3.809276,3.202319) -- (4.961194,3.490299);%
+
+% Marking point P by circle
+\draw [line width=0.016cm] (3.770470,3.192618) circle (0.040000);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (3.000000,3.000000) circle (0.040000);%
+\draw (3.030000,2.970000) node [anchor=south east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (5.000000,3.500000) circle (0.040000);%
+\draw (5.030000,3.470000) node [anchor=south east] { $B$ };%
+}
+\end{tikzpicture}

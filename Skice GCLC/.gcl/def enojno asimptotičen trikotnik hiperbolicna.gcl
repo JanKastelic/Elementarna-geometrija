@@ -1,0 +1,14 @@
+area 15 15 55 45
+
+point A 20 40
+point B 20 20
+point \Omega 50 30
+point X 25 30
+
+drawsegment A B
+drawbezier3 A X \Omega
+drawbezier3 B X \Omega
+
+cmark_l A
+cmark_l B
+mark_r \Omega

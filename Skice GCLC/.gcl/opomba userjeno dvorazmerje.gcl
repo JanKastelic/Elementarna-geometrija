@@ -1,0 +1,20 @@
+area 10 10 65 25
+
+point A 18 16
+point \infty_p 65 20
+midpoint P A \infty_p
+onsegment B A P
+onsegment D P \infty_p
+onsegment C B D
+point p 12 15
+
+cmark_t A
+cmark_t B
+cmark_t C
+cmark_t D
+mark_t \infty_p
+mark_t p
+
+drawline A \infty_p
+
+

@@ -1,0 +1,21 @@
+area 15 15 50 45
+
+point S 30 30
+point A 45 30
+point X 70 50
+point Y 100 30
+point K 40 40
+midpoint U A S
+point p 45 20
+
+drawcircle S A
+drawcircle U A
+drawsegment S Y
+line s S A
+perpendicular u A s
+drawline u
+
+cmark_l S
+cmark_rt A
+mark_rt K
+mark_r p

@@ -1,0 +1,47 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing segment A C
+\draw [line width=0.016cm] (1.500000,1.500000) -- (3.500000,1.500000);%
+
+% Drawing segment F H
+\draw [line width=0.016cm] (1.500000,3.500000) -- (3.500000,3.500000);%
+
+% Drawing segment A F
+\draw [line width=0.016cm] (1.500000,1.500000) -- (1.500000,3.500000);%
+
+% Drawing segment C H
+\draw [line width=0.016cm] (3.500000,1.500000) -- (3.500000,3.500000);%
+
+% Drawing segment G B
+\draw [line width=0.016cm] (3.000000,3.500000) -- (3.000000,1.500000);%
+
+% Drawing segment D E
+\draw [line width=0.016cm] (1.500000,3.000000) -- (3.500000,3.000000);%
+
+% Marking point a
+\draw (2.250000,1.500000) node [anchor=north] { $a$ };%
+
+% Marking point b
+\draw (3.250000,1.500000) node [anchor=north] { $b$ };%
+
+% Marking point a
+\draw (1.500000,2.250000) node [anchor=east] { $a$ };%
+
+% Marking point b
+\draw (1.500000,3.250000) node [anchor=east] { $b$ };%
+
+% Marking point ba
+\draw (2.250000,3.250000) node  { $ba$ };%
+
+% Marking point b^2
+\draw (3.250000,3.250000) node  { $b^2$ };%
+
+% Marking point a^2
+\draw (2.250000,2.250000) node  { $a^2$ };%
+
+% Marking point ab
+\draw (3.250000,2.250000) node  { $ab$ };%
+}
+\end{tikzpicture}

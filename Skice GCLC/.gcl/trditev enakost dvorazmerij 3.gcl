@@ -1,0 +1,45 @@
+area 35 35 95 65
+
+point O 60 60
+point A 40 60
+point p 90 35
+point x 20 40
+point q 90 40
+point B' 45 40
+point C' 65 40
+point D' 75 40
+point E' 85 40
+point \infty_q=A' 35 40
+point A=A_q 40 60
+
+line P A p
+line Q x q
+line a O A
+line b O B'
+line c O C'
+line d O D'
+
+intersection B b P
+intersection C c P
+intersection D d P
+
+drawline a
+drawline b
+drawline c
+drawline d
+drawline P
+drawline Q
+
+cmark_rt O
+cmark_rt A=A_q
+cmark_b B
+cmark_lb C
+cmark_rt D
+mark_t p
+mark_t q
+
+cmark_rb B'
+cmark_lb C'
+cmark_lb D'
+cmark_t E'
+mark_t \infty_q=A'

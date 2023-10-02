@@ -1,0 +1,89 @@
+area 5 15 70 60
+
+point K 35 35
+point S'' 25 35
+point C 30 35
+point \tilde{K} 65 25
+point L 100 35
+point S 45 35
+point \tilde{S} 20 35
+
+circle k \tilde{S} K
+line s S'' C
+perpendicular t C s
+intersection2 A B k t
+line R S'' A
+line R' S'' B
+perpendicular x A R
+perpendicular y B R'
+point C' 65 35
+midpoint r S'' A
+midpoint S' S'' C'
+circle k' S' C'
+
+
+drawcircle k
+
+drawcircle k'
+
+
+line m \tilde{S} A
+perpendicular n A m
+
+
+intersection t s n
+
+point p 30 55
+
+
+
+
+
+cmark_l \tilde{S}
+
+circle x S'' C
+intersec2 U V k' x
+angle alpha U S'' V
+drawarc S'' U alpha
+
+point B' 29.27 37.17
+cmark_t B'
+point A' 29.28 32.93
+cmark_b A'
+
+point \Omega' 25.62 39.96
+point \Sigma' 25.62 30.04
+mark_l \Omega'
+mark_l \Sigma'
+
+point M 50 35
+point N 75 35
+
+circle y N M
+
+
+line a S A'
+line b S B'
+
+point A 50.97 28.09
+point B 51.08 42.28
+
+cmark_l A
+cmark_l B
+
+intersec2 \Sigma \Omega y k'
+
+mark_r \Omega
+mark_r \Sigma
+
+angle beta \Omega N \Sigma
+
+drawarc N \Omega beta
+
+cmark_l S
+
+point \mathcal{K} 60 25 
+mark_r \mathcal{K}
+
+point \tilde{\mathcal{K}} 20 20
+mark_b \tilde{\mathcal{K}}

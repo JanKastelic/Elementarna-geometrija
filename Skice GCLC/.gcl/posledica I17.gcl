@@ -1,0 +1,30 @@
+area 10 10 60 40
+
+point C 15 15
+point B 50 15
+point A 30 35
+point I 60 15
+
+
+
+drawsegment C I
+drawsegment A C
+drawsegment B A
+
+
+cmark_t A
+cmark_b B
+cmark_b C
+
+point \alpha 30 33
+mark_b \alpha
+
+point \beta 47 15
+mark_t \beta
+
+point \pi-\beta 53 15
+mark_t \pi-\beta
+
+
+
+

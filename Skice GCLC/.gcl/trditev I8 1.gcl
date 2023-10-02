@@ -1,0 +1,45 @@
+area 10 18 85 55
+
+point A 15 40
+point B 45 35
+point C 35 50
+point D 50 25
+
+
+rotate C' A 10 C
+rotate B' A 10 B
+
+translate E A B' D
+translate F A C' D
+
+line p A B
+
+perpendicular r C p
+
+drawdashline r
+
+intersec P p r
+
+translate F' C P P
+
+drawsegment A C
+drawsegment  B C
+drawsegment A B
+
+
+drawsegment D E
+drawsegment D F
+drawsegment F E
+
+drawsegment A F'
+drawsegment F' B
+
+cmark_lb A
+cmark_rb B
+cmark_lt C
+cmark_lb D
+cmark_lb E
+cmark_rt P
+cmark_lt F
+cmark_lb F'
+

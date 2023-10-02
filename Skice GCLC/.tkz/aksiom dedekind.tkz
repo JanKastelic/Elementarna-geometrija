@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing line q p
+\draw [line width=0.016cm] (1.000000,1.357143) -- (3.211539,1.989011);%
+\draw [line width=0.016cm] (3.288461,2.010989) -- (5.000000,2.500000);%
+
+% Marking point p
+\draw (5.000000,2.500000) node [anchor=south east] { $p$ };%
+
+% Marking point \Sigma_1
+\draw (2.771363,1.863247) node [anchor=south east] { $\Sigma_1$ };%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (3.250000,2.000000) circle (0.040000);%
+\draw (3.280000,1.970000) node [anchor=south east] { $A$ };%
+
+% Marking point \Sigma_2
+\draw (4.098643,2.242470) node [anchor=south east] { $\Sigma_2$ };%
+}
+\end{tikzpicture}

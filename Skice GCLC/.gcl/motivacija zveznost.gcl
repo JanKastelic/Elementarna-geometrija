@@ -1,0 +1,22 @@
+area 18 10 41 35
+
+point A 20 15
+point B 40 15
+
+circle k1 A B
+circle k2 B A
+
+drawcircle k1
+drawcircle k2
+
+intersec2 C' C k1 k2
+
+cmark_lt A
+cmark_rt B
+cmark_t C
+
+double
+
+drawsegment A B
+drawsegment A C
+drawsegment B C

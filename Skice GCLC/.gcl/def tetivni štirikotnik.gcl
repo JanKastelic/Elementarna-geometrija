@@ -1,0 +1,25 @@
+area 10 10 60 60
+
+point P 35 15
+point S 35 35
+
+circle K S P
+
+drawcircle K
+
+oncircle A S P
+oncircle B S P
+oncircle C S P
+oncircle D S P
+
+cmark_l A
+cmark_b B
+cmark_r C
+cmark_t D
+
+
+double
+drawsegment A B
+drawsegment B C
+drawsegment C D
+drawsegment D A

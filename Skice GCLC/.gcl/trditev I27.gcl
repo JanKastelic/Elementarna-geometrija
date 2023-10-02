@@ -1,0 +1,28 @@
+area 10 20 50 45
+
+point p 15 35
+point Q 35 25
+point q 15 25
+point t 20 40
+
+line q' q Q
+line t' t Q
+
+drawline t'
+drawline q'
+
+parallel p' p q'
+
+drawline p'
+
+mark_lt p
+mark_lt q
+mark_rt t
+
+intersec \phi p' t'
+
+mark_rb \phi
+
+intersec \phi q' t'
+
+mark_lt \phi

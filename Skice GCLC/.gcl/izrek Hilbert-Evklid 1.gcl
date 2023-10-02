@@ -1,0 +1,38 @@
+area 10 10 85 40
+
+point A 30 35
+point t 20 15
+point p 60 25
+point q 50 30
+point r 70 35
+
+line R r A
+line T t A
+line Q A q
+
+parallel P p R
+
+intersection I T P
+intersection J Q P
+
+drawline P
+drawline R
+drawline Q
+drawline T
+
+mark_l t
+mark_t r
+mark_b p
+mark_t q
+
+cmark_lt A
+cmark I
+
+point \alpha 30 25
+mark_t \alpha
+
+point \alpha 25 35
+mark_b \alpha
+
+point \beta 35 35
+mark_b \beta

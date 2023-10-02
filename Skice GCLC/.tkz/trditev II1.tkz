@@ -1,0 +1,66 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Drawing segment A C
+\draw [line width=0.016cm] (1.500000,1.500000) -- (3.500000,1.500000);%
+
+% Drawing segment D E
+\draw [line width=0.016cm] (4.500000,1.500000) -- (6.000000,1.500000);%
+
+% Drawing segment F G
+\draw [line width=0.016cm] (6.500000,1.500000) -- (7.000000,1.500000);%
+
+% Drawing segment H J
+\draw [line width=0.016cm] (1.500000,2.500000) -- (3.500000,2.500000);%
+
+% Drawing segment K L
+\draw [line width=0.016cm] (4.500000,2.500000) -- (6.000000,2.500000);%
+
+% Drawing segment M N
+\draw [line width=0.016cm] (6.500000,2.500000) -- (7.000000,2.500000);%
+
+% Drawing segment A H
+\draw [line width=0.016cm] (1.500000,1.500000) -- (1.500000,2.500000);%
+
+% Drawing segment B I
+\draw [line width=0.016cm] (3.000000,1.500000) -- (3.000000,1.650000);%
+\draw [line width=0.016cm] (3.000000,1.725000) -- (3.000000,1.875000);%
+\draw [line width=0.016cm] (3.000000,1.950000) -- (3.000000,2.100000);%
+\draw [line width=0.016cm] (3.000000,2.175000) -- (3.000000,2.325000);%
+\draw [line width=0.016cm] (3.000000,2.400000) -- (3.000000,2.500000);%
+
+% Drawing segment C J
+\draw [line width=0.016cm] (3.500000,1.500000) -- (3.500000,2.500000);%
+
+% Drawing segment D K
+\draw [line width=0.016cm] (4.500000,1.500000) -- (4.500000,2.500000);%
+
+% Drawing segment E L
+\draw [line width=0.016cm] (6.000000,1.500000) -- (6.000000,2.500000);%
+
+% Drawing segment F M
+\draw [line width=0.016cm] (6.500000,1.500000) -- (6.500000,2.500000);%
+
+% Drawing segment G N
+\draw [line width=0.016cm] (7.000000,1.500000) -- (7.000000,2.500000);%
+
+% Marking point c
+\draw (1.500000,2.000000) node [anchor=east] { $c$ };%
+
+% Marking point a
+\draw (2.250000,1.500000) node [anchor=north] { $a$ };%
+
+% Marking point b
+\draw (3.250000,1.500000) node [anchor=north] { $b$ };%
+
+% Marking point c
+\draw (6.500000,2.000000) node [anchor=east] { $c$ };%
+
+% Marking point a
+\draw (5.250000,1.500000) node [anchor=north] { $a$ };%
+
+% Marking point b
+\draw (6.750000,1.500000) node [anchor=north] { $b$ };%
+}
+\end{tikzpicture}

@@ -1,0 +1,23 @@
+area 10 10 60 40
+
+point A 15 15
+point B 30 15
+
+point A' 40 15
+point G 85 60
+
+translate B'' A B A'
+rotate B' A' 45 B''
+
+
+cmark_lt A
+cmark_lt B
+cmark_lt A'
+cmark_lt B'
+
+drawsegment A' G
+
+double
+
+drawsegment A B
+drawsegment A' B'

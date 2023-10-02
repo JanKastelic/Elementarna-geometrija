@@ -1,0 +1,31 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (14.000000,10.000000);
+{\footnotesize
+
+% Marking point A by circle
+\draw [line width=0.016cm] (1.500000,1.500000) circle (0.040000);%
+\draw (1.530000,1.470000) node [anchor=south east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (3.000000,1.500000) circle (0.040000);%
+\draw (3.030000,1.470000) node [anchor=south east] { $B$ };%
+
+% Marking point A' by circle
+\draw [line width=0.016cm] (4.000000,1.500000) circle (0.040000);%
+\draw (4.030000,1.470000) node [anchor=south east] { $A'$ };%
+
+% Marking point B' by circle
+\draw [line width=0.016cm] (5.060660,2.560660) circle (0.040000);%
+\draw (5.090660,2.530660) node [anchor=south east] { $B'$ };%
+
+% Drawing segment A' G
+\draw [line width=0.016cm] (4.028284,1.528284) -- (5.032376,2.532376);%
+\draw [line width=0.016cm] (5.088944,2.588944) -- (6.000000,3.500000);%
+
+% Drawing segment A B
+\draw [line width=0.032cm] (1.540000,1.500000) -- (2.960000,1.500000);%
+
+% Drawing segment A' B'
+\draw [line width=0.032cm] (4.028284,1.528284) -- (5.032376,2.532376);%
+}
+\end{tikzpicture}

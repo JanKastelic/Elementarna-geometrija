@@ -1,0 +1,61 @@
+area 10 13 70 75
+
+point A 20 40
+point A' 60 40
+point S 40 40
+point S_1 40 50
+point S_2 40 35
+point p_2 17 15
+point p_1 35 15
+point q_1 51 15
+point q_2 69 15
+point K_2 45 55
+point K_1 45 25
+
+line a A A'
+perpendicular s S a
+
+circle k1 S_1 A
+circle k2 S_2 A
+
+line r11 S_1 A
+line r12 S_1 A'
+
+line r21 S_2 A
+line r22 S_2 A'
+
+perpendicular P1 A r11
+perpendicular Q1 A' r12
+
+perpendicular P2 A r21
+perpendicular Q2 A' r22
+
+drawline a
+drawline s
+drawline P1
+drawline P2
+drawline Q1
+drawline Q2
+
+
+cmark_lb A
+cmark_rt A'
+cmark_rt S_1
+cmark_rb S_2
+
+drawdashsegment A S_1
+drawdashsegment A' S_1
+drawdashsegment A S_2
+drawdashsegment A' S_2
+
+mark_t p_1
+mark_t p_2
+mark_t q_1
+mark_t q_2
+
+color 105 105 105
+drawcircle k1
+drawcircle k2
+
+mark_t K_2
+mark_t K_1

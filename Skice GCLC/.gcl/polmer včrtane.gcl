@@ -1,0 +1,59 @@
+area 10 10 75 55
+
+point A 15 15
+point B 70 18
+point C 50 50
+
+bisector a B A C
+bisector c A C B
+bisector b A B C
+
+drawsegment A B
+drawsegment A C
+drawsegment B C
+
+drawdashline a
+drawdashline b
+drawdashline c
+
+intersection I a b
+
+line e A B
+line f B C
+line g A C
+
+perpendicular h I e
+perpendicular i I f
+perpendicular j I g
+
+intersection K h e
+intersection L i f
+intersection M j g
+
+cmark_b A
+cmark_b B
+cmark_rt C
+cmark_lb I
+
+midpoint r I M
+mark_t r
+
+midpoint r I K
+mark_r r
+
+midpoint r I L
+mark_t r
+
+midpoint a B C
+mark_r a
+
+midpoint c A B
+mark_b c
+
+midpoint b A C
+mark_l b
+
+double
+drawsegment I K
+drawsegment I L
+drawsegment I M

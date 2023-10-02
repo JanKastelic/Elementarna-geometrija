@@ -1,0 +1,22 @@
+area 10 10 60 35
+
+point E 15 15
+point F 50 15
+point G 15 27
+
+point H 55 15
+point I 15 30
+point J 55 30
+
+cmark_l G
+cmark_lb E
+cmark_b F
+
+
+drawsegment E H
+drawsegment E I
+drawsegment H I
+drawsegment H J
+drawsegment I J
+drawsegment G F
+drawsegment H G

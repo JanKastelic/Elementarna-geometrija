@@ -1,0 +1,27 @@
+area 10 15 50 45
+
+point P 15 20
+point p 40 20
+point A 25 35
+point Q 50 35
+
+line p' p P
+
+perpendicular t' A p'
+
+intersec T t' p'
+
+parallel q' A p'
+
+online t A T
+onsegment q A Q
+
+drawline p'
+drawline q'
+drawline t'
+
+mark_lt p
+mark_lt q
+mark_lt t
+cmark_lt A
+

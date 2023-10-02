@@ -1,0 +1,33 @@
+area 10 10 70 41
+
+point K 15 15
+point S 25 25
+point A 30 25
+
+circle k S K
+line s S A
+perpendicular t A s
+intersection2 B B' k t
+line R S B
+line R' S B'
+perpendicular x B R
+perpendicular y B' R'
+intersection A' s x
+midpoint r S B
+
+drawcircle k
+drawline s
+drawsegment S B
+drawline x
+drawline t
+
+drawdashsegment S B'
+drawdashline y
+
+cmark_lb S
+mark_l K
+cmark_rt B
+cmark_rb B'
+cmark_b A'
+cmark_rb A
+mark_l r

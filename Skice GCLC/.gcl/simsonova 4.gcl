@@ -1,0 +1,35 @@
+area 10 10 65 30
+
+point A 15 15
+point B 60 15
+point C 40 25
+point P 30 18
+
+cmark_b A
+cmark_b B
+cmark_rt C
+cmark_r P
+
+drawsegment A B
+drawsegment A C
+drawline B C
+
+line c A B
+line b A C
+line a B C
+
+perpendicular s P c
+perpendicular q P a
+perpendicular r P b
+
+intersection S s c
+intersection Q q a
+intersection R r b
+
+cmark_rt Q
+cmark_b S
+cmark_l R
+
+drawdashsegment P Q
+drawdashsegment P R
+drawdashsegment P S

@@ -1,0 +1,41 @@
+area 10 10 70 50
+
+point A 35 25
+point B 45 45
+point C 60 30
+point Q 5 5
+point T 50 35
+point q 55 40
+
+onsegment D A T
+
+onsegment E Q A
+
+
+online B' A B
+
+onsegment E' B' C
+
+line s C A
+line r B A
+line p A T
+line q C B
+
+
+drawsegment B' C
+
+drawline s
+drawline r
+
+drawsegment Q T
+
+
+cmark_lt A
+cmark_lt B
+cmark_rb C
+cmark_lt D
+cmark_lt E
+cmark_lt B'
+cmark_lt E'
+
+drawsegment B C
